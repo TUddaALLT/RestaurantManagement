@@ -1,0 +1,68 @@
+﻿@page
+@model RestaurantManagement.Pages.TableOrder.ListTableOrderModel
+@{
+}
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<table id="tableOrders">
+   <thead>
+        <tr>
+            <th>Description</th>
+            <th>Floor</th>
+            <th>Number</th>
+            <th>Action</th>
+        </tr>
+   </thead>
+    <tbody>
+        @foreach (var item in Model.tableOrders)
+        {
+            <tr>
+                <td> @item.Description</td>
+                <td>@item.Floor</td>
+                <td>@item.Number</td>
+                <td><button onclick="deleteR(@item.Id)">Delete</button> <button onclick="update(@item.Id)">Update</button></td>
+                
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/resHub").build();
+    connection.start();
+    function deleteR(id){
+        connection.invoke("DeleteTableOrder",id);
+    }
+    connection.on("LoadTableOrder", (data) => {
+        // Clear the table body
+        const tableBody = document.querySelector("#tableOrders tbody");
+        tableBody.innerHTML = '';
+        console.log(data)
+        // Loop through the data and add rows to the table
+        data.forEach(item => {
+            const row = document.createElement("tr");
+            row.innerHTML = `<td>${item.description}</td><td>${item.floor}
+                </td><td>${item.number}</td>
+                <td><button onclick="deleteR(${item.id})">Delete</button></td>`;
+            tableBody.appendChild(row);
+        });
+    });
+            
+</script>
