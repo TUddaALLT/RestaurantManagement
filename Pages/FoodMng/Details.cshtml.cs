@@ -18,7 +18,8 @@ namespace RestaurantManagement.Pages.FoodMng
             _context = context;
         }
 
-      public Food Food { get; set; } = default!; 
+        public Food Food { get; set; } = default!;
+        public FoodCategory Category { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -27,7 +28,7 @@ namespace RestaurantManagement.Pages.FoodMng
                 return NotFound();
             }
 
-            var food = await _context.Foods.FirstOrDefaultAsync(m => m.Id == id);
+           var food = await _context.Foods.Include(f => f.Category).FirstOrDefaultAsync(m => m.Id == id);
             if (food == null)
             {
                 return NotFound();

@@ -24,7 +24,10 @@ namespace RestaurantManagement.Pages.CategoryMng
         {
             if (_context.FoodCategories != null)
             {
-                FoodCategory = await _context.FoodCategories.ToListAsync();
+                FoodCategory = await _context.FoodCategories
+                .GroupBy(fc => fc.Name)
+                .Select(group => group.First())
+                .ToListAsync();
             }
         }
     }
