@@ -5,48 +5,36 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>List Food</h1>
+<h1>Index</h1>
 
 <p>
     <a asp-page="Create">Create New Food</a>
 </p>
-<h4>Beef</h4>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Food)
-        {
-            if (item.Category.Name.ToLower() == "beef") // Kiểm tra CategoryId
+@{
+    var distinctCategoryNames = Model.Food.Select(f => f.Category.Name).Distinct();
+}
+
+@foreach (var categoryName in distinctCategoryNames)
+{
+    <h2>@categoryName</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Food[0].Name)</th>
+                <th>@Html.DisplayNameFor(model => model.Food[0].Description)</th>
+                <th>@Html.DisplayNameFor(model => model.Food[0].Price)</th>
+                <th>@Html.DisplayNameFor(model => model.Food[0].Category)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Food.Where(f => f.Category.Name == categoryName))
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Category.Id)
-                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
                     <td>
                         <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                         <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
@@ -54,147 +42,7 @@
                     </td>
                 </tr>
             }
-        }
-    </tbody>
-</table>
-<h4>Sea Food</h4>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Food)
-        {
-            if (item.Category.Name.ToLower() == "seafood") // Kiểm tra CategoryId
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Category.Id)
-                    </td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-                </tr>
-            }
-        }
-    </tbody>
-</table>
-<h4>Vegetable</h4>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Food)
-        {
-            if (item.Category.Name.ToLower() == "vegetable") // Kiểm tra CategoryId
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Category.Id)
-                    </td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-                </tr>
-            }
-        } 
-    </tbody>
-</table>
-<h4>Dessert</h4>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Food[0].Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Food)
-        {
-            if (item.Category.Name.ToLower() == "ice creams") // Kiểm tra CategoryId
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Category.Id)
-                    </td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-                </tr>
-            }
-        }
-    </tbody>
-</table>
+        </tbody>
+    </table>
+}
+
