@@ -20,13 +20,13 @@ namespace RestaurantManagement.Pages.FoodMng
 
         public IActionResult OnGet()
         {
-        ViewData["CategoryId"] = new SelectList(_context.FoodCategories, "Id", "Id");
+            ViewData["Name"] = new SelectList(_context.FoodCategories.Select(fc => fc.Name).Distinct());
             return Page();
         }
 
         [BindProperty]
         public Food Food { get; set; } = default!;
-        public FoodCategory Category { get; set; } = default!;
+        
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()

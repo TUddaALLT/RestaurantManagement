@@ -29,13 +29,13 @@ namespace RestaurantManagement.Pages.FoodMng
                 return NotFound();
             }
 
-            var food =  await _context.Foods.FirstOrDefaultAsync(m => m.Id == id);
+            var food = await _context.Foods.FirstOrDefaultAsync(m => m.Id == id);
             if (food == null)
             {
                 return NotFound();
             }
             Food = food;
-           ViewData["CategoryId"] = new SelectList(_context.FoodCategories, "Id", "Id");
+            ViewData["Name"] = new SelectList(_context.FoodCategories.Select(fc => fc.Name).Distinct());
             return Page();
         }
 
