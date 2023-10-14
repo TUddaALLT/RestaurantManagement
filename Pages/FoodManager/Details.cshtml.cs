@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.CategoryMng
+namespace RestaurantManagement.Pages.FoodManager
 {
     public class DetailsModel : PageModel
     {
@@ -18,23 +18,23 @@ namespace RestaurantManagement.Pages.CategoryMng
             _context = context;
         }
 
-      public FoodCategory FoodCategory { get; set; } = default!; 
+      public Food Food { get; set; } = default!; 
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.FoodCategories == null)
+            if (id == null || _context.Foods == null)
             {
                 return NotFound();
             }
 
-            var foodcategory = await _context.FoodCategories.FirstOrDefaultAsync(m => m.Id == id);
-            if (foodcategory == null)
+            var food = await _context.Foods.Include(f => f.Category).FirstOrDefaultAsync(m => m.Id == id);
+            if (food == null)
             {
                 return NotFound();
             }
             else 
             {
-                FoodCategory = foodcategory;
+                Food = food;
             }
             return Page();
         }

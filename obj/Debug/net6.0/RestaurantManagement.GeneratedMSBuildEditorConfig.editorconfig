@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RestaurantManagement
 build_property.RootNamespace = RestaurantManagement
-build_property.ProjectDir = D:\Semester 7\PRN221\PRNNewGit\RestaurantManagement\
+build_property.ProjectDir = D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Semester 7\PRN221\PRNNewGit\RestaurantManagement
+build_property.MSBuildProjectDirectory = D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/CategoryMng/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcQ3JlYXRlLmNzaHRtbA==
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/CategoryMng/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRGVsZXRlLmNzaHRtbA==
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/CategoryMng/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRGV0YWlscy5jc2h0bWw=
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/CategoryMng/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRWRpdC5jc2h0bWw=
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/CategoryMng/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcSW5kZXguY3NodG1s
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Combo/Create.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Combo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tYm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Combo/Delete.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Combo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tYm9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Combo/Details.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Combo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tYm9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Combo/Edit.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Combo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tYm9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Combo/Index.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Combo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tYm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Customer/Index.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Error.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/FoodMng/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xDcmVhdGUuY3NodG1s
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/FoodManager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/FoodMng/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xEZWxldGUuY3NodG1s
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/FoodManager/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/FoodMng/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xEZXRhaWxzLmNzaHRtbA==
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/FoodManager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/FoodMng/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xFZGl0LmNzaHRtbA==
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/FoodManager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/FoodMng/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xJbmRleC5jc2h0bWw=
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/FoodManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Index.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Order/Food.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Order/Food.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcRm9vZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Order/ListOrderDetail.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Order/ListOrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcTGlzdE9yZGVyRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Order/Success.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Order/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Order/Table.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Order/Table.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Privacy.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/TableOrder/Index.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/TableOrder/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVPcmRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/TableOrder/ListTableOrder.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/TableOrder/ListTableOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVPcmRlclxMaXN0VGFibGVPcmRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/_ViewImports.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/_ViewStart.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester 7/PRN221/PRNNewGit/RestaurantManagement/Pages/Shared/_Layout.cshtml]
+[D:/Semester 7/PRN221/PRNUpdateFromGit/RestaurantManagement/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fclunk8him

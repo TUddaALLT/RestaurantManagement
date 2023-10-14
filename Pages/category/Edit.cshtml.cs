@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.FoodMng
+namespace RestaurantManagement.Pages.category
 {
     public class EditModel : PageModel
     {
@@ -20,22 +20,21 @@ namespace RestaurantManagement.Pages.FoodMng
         }
 
         [BindProperty]
-        public Food Food { get; set; } = default!;
+        public FoodCategory FoodCategory { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Foods == null)
+            if (id == null || _context.FoodCategories == null)
             {
                 return NotFound();
             }
 
-            var food = await _context.Foods.FirstOrDefaultAsync(m => m.Id == id);
-            if (food == null)
+            var foodcategory =  await _context.FoodCategories.FirstOrDefaultAsync(m => m.Id == id);
+            if (foodcategory == null)
             {
                 return NotFound();
             }
-            Food = food;
-            ViewData["Name"] = new SelectList(_context.FoodCategories.Select(fc => fc.Name).Distinct());
+            FoodCategory = foodcategory;
             return Page();
         }
 
@@ -48,7 +47,7 @@ namespace RestaurantManagement.Pages.FoodMng
                 return Page();
             }
 
-            _context.Attach(Food).State = EntityState.Modified;
+            _context.Attach(FoodCategory).State = EntityState.Modified;
 
             try
             {
@@ -56,7 +55,7 @@ namespace RestaurantManagement.Pages.FoodMng
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!FoodExists(Food.Id))
+                if (!FoodCategoryExists(FoodCategory.Id))
                 {
                     return NotFound();
                 }
@@ -69,9 +68,9 @@ namespace RestaurantManagement.Pages.FoodMng
             return RedirectToPage("./Index");
         }
 
-        private bool FoodExists(int id)
+        private bool FoodCategoryExists(int id)
         {
-          return (_context.Foods?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.FoodCategories?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

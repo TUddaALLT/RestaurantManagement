@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.FoodMng
+namespace RestaurantManagement.Pages.category
 {
     public class CreateModel : PageModel
     {
@@ -20,23 +20,22 @@ namespace RestaurantManagement.Pages.FoodMng
 
         public IActionResult OnGet()
         {
-            ViewData["Name"] = new SelectList(_context.FoodCategories.Select(fc => fc.Name).Distinct());
             return Page();
         }
 
         [BindProperty]
-        public Food Food { get; set; } = default!;
+        public FoodCategory FoodCategory { get; set; } = default!;
         
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-          if (!ModelState.IsValid || _context.Foods == null || Food == null)
+          if (!ModelState.IsValid || _context.FoodCategories == null || FoodCategory == null)
             {
                 return Page();
             }
 
-            _context.Foods.Add(Food);
+            _context.FoodCategories.Add(FoodCategory);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
