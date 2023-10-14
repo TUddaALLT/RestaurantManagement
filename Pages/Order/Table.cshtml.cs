@@ -50,12 +50,13 @@ namespace RestaurantManagement.Pages.Order
             {
                 TableOrderId = table_id,
                 Start = start,
-                End = end   ,
-                CustomerId = 2
-            });
+                End = end,
+                CustomerId = int.Parse(HttpContext.Session.GetString("id"))
+            }); ;
             _context.SaveChanges();
-            TableOrderCustomer tableOrderCustomer = _context.TableOrderCustomers.FirstOrDefault(x=>x.CustomerId==2
-                                                                                              && x.TableOrderId==table_id && x.Start == start);
+            TableOrderCustomer tableOrderCustomer = _context.TableOrderCustomers
+                .FirstOrDefault(x=>x.CustomerId == int.Parse(HttpContext.Session.GetString("id"))                                                                          
+                && x.TableOrderId==table_id && x.Start == start);
             HttpContext.Session.SetString("TableOrderCustomerId", tableOrderCustomer.Id!=null?tableOrderCustomer.Id+"":0+"");
 
             // session set  tableOrderCustomer.Id

@@ -14,18 +14,32 @@ namespace RestaurantManagement.Pages.Authentication
             _context = context;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            
+            if (HttpContext.Session.GetString("IsAuthenticated" )!= null)
+            {
+                return RedirectToPage("/Order/Table");
+            }
+            else
+            {
+                return Page();
+            }
         }
         public String message;
         public IActionResult OnPost(String Username, String Password)
         {
-
+            Models.Customer customer = _context.Customers.FirstOrDefault(x => x.Username == Username && x.Password == Password);
            if (_context.Customers.FirstOrDefault(x => x.Username == Username && x.Password == Password)!= null)
             {
+                if(Username == "admin")
+                {
+                    HttpContext.Session.SetString("IsAdmin", "true");
+                    return RedirectToPage("/foodmanager/index");
+                }
                     HttpContext.Session.SetString("IsAuthenticated", "true");
-                    return RedirectToPage("/Order/Table");
+                       HttpContext.Session.SetString("Username", Username);
+                HttpContext.Session.SetString("id",customer.Id +"");
+                return RedirectToPage("/Order/Table");
             }
             else
             {

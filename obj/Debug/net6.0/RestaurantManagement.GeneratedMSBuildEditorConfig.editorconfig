@@ -72,10 +72,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodManager/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -116,10 +112,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/SecurePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdXJlUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -147,3 +139,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fclunk8him
+
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-wa8ovfksbz

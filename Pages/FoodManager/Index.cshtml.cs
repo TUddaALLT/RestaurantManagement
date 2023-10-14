@@ -20,13 +20,20 @@ namespace RestaurantManagement.Pages.FoodManager
 
         public IList<Food> Food { get;set; } = default!;
 
-        public async Task OnGetAsync()
+        public IActionResult  OnGet()
         {
-            if (_context.Foods != null)
+
+            if (HttpContext.Session.GetString("IsAdmin") == "true")
             {
-                Food = await _context.Foods
-                .Include(f => f.Category).ToListAsync();
+                Food =   _context.Foods
+               .Include(f => f.Category).ToList();
+                return Page();
             }
+            else
+            {
+                return RedirectToPage("/SecurePage");
+
+            }         
         }
     }
 }

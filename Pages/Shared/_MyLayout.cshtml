@@ -1,15 +1,13 @@
-﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
-@{
-    Layout = null;
-}
+﻿
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Restaurant Management - Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RestaurantManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RestaurantManagement.styles.css" asp-append-version="true" />
     <style>
         /* Add your CSS styles here */
         body {
@@ -65,6 +63,7 @@
         }
 
         footer {
+            margin:80vh 0 0 0;
             background-color: #333;
             color: #fff;
             text-align: center;
@@ -76,29 +75,18 @@
     <header>
         <h1>Welcome to Restaurant </h1>
         <div class="header-buttons">
+            <a href="/order/table">Booking</a>
+            <a href="/order/listorderdetail">My Booking</a>
             <a href="/authentication/login">Login</a>
-             <a href="/authentication/register">Register</a>
+            <a href="/authentication/register">Register</a>
             <a href="/authentication/logout">Logout</a>
         </div>
     </header>
-    <div class="introduction">
-        <img src="https://static9.depositphotos.com/1057833/1126/v/450/depositphotos_11261796-stock-illustration-restaurant-menu-design-vector.jpg" alt="Restaurant Image"> <!-- Add your image URL and alt text -->
-       
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at felis nec dui cursus fringilla.</p>
-        </section>
-        <section>
-            <h2>Our Menu</h2>
-            <p>Explore our delicious menu with a variety of options for all tastes.</p>
-        </section>
-        <section>
-            <h2>Reservations</h2>
-            <p>Make a reservation to enjoy a memorable dining experience at our restaurant.</p>
-        </section>
-    </main>
     <footer>
         <h3>Contact Us</h3>
         <p>123 Main Street, City, Country</p>
@@ -106,5 +94,12 @@
         <p>Phone: +1-123-456-7890</p>
         <p>&copy; 2023 Restaurant Management</p>
     </footer>
+     
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
