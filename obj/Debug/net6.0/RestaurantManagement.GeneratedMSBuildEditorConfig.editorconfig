@@ -16,24 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\84352\source\repos\RestaurantManagement\RestaurantManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/CategoryMng/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/CategoryMng/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRGVsZXRlLmNzaHRtbA==
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/CategoryMng/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRGV0YWlscy5jc2h0bWw=
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/CategoryMng/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRWRpdC5jc2h0bWw=
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/CategoryMng/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcSW5kZXguY3NodG1s
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Combo/Create.cshtml]
@@ -64,24 +64,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodMng/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xDcmVhdGUuY3NodG1s
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodManager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodMng/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xEZWxldGUuY3NodG1s
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodManager/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodMng/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodManager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodMng/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xFZGl0LmNzaHRtbA==
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodManager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodMng/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xJbmRleC5jc2h0bWw=
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/FoodManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Index.cshtml]

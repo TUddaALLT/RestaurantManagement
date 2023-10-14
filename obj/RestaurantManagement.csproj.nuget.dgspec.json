@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
         "packagesPath": "C:\\Users\\84352\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\",
+=======
+    "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\RestaurantManagement.csproj": {}
+  },
+  "projects": {
+    "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\RestaurantManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\RestaurantManagement.csproj",
+        "projectName": "RestaurantManagement",
+        "projectPath": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\RestaurantManagement.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\obj\\",
+>>>>>>> 45fb6f603a42c3c0dee10f5a577498056814bedb
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.CategoryMng
+namespace RestaurantManagement.Pages.FoodManager
 {
     public class EditModel : PageModel
     {
@@ -20,21 +20,22 @@ namespace RestaurantManagement.Pages.CategoryMng
         }
 
         [BindProperty]
-        public FoodCategory FoodCategory { get; set; } = default!;
+        public Food Food { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.FoodCategories == null)
+            if (id == null || _context.Foods == null)
             {
                 return NotFound();
             }
 
-            var foodcategory =  await _context.FoodCategories.FirstOrDefaultAsync(m => m.Id == id);
-            if (foodcategory == null)
+            var food =  await _context.Foods.FirstOrDefaultAsync(m => m.Id == id);
+            if (food == null)
             {
                 return NotFound();
             }
-            FoodCategory = foodcategory;
+            Food = food;
+            ViewData["Name"] = new SelectList(_context.FoodCategories.Select(fc => fc.Name).Distinct());
             return Page();
         }
 
@@ -47,7 +48,22 @@ namespace RestaurantManagement.Pages.CategoryMng
                 return Page();
             }
 
-            _context.Attach(FoodCategory).State = EntityState.Modified;
+            // Kiểm tra xem Category mới có tồn tại trong danh sách Categories hay không
+            var newCategoryName = Food.Category.Name; // Giả sử tên Category mới được nhập từ người dùng
+            var existingCategory = _context.FoodCategories.FirstOrDefault(c => c.Name == newCategoryName);
+
+            if (existingCategory == null)
+            {
+                // Nếu không tồn tại, tạo mới Category
+                existingCategory = new FoodCategory { Name = newCategoryName };
+                _context.FoodCategories.Add(existingCategory);
+            }
+
+            // Gán Category mới cho Food
+            Food.Category = existingCategory;
+
+            // Cập nhật Food
+            _context.Attach(Food).State = EntityState.Modified;
 
             try
             {
@@ -55,7 +71,7 @@ namespace RestaurantManagement.Pages.CategoryMng
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!FoodCategoryExists(FoodCategory.Id))
+                if (!FoodExists(Food.Id))
                 {
                     return NotFound();
                 }
@@ -68,9 +84,9 @@ namespace RestaurantManagement.Pages.CategoryMng
             return RedirectToPage("./Index");
         }
 
-        private bool FoodCategoryExists(int id)
+        private bool FoodExists(int id)
         {
-          return (_context.FoodCategories?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Foods?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
