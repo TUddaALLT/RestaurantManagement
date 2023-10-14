@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "0uhb+mlaWCdyUlw5ikV8K/suYkYPoqHxoeMfpSGJWNXaL3rhL7Bbe5kc9wGII3L7T7RjTvloLmiDVHXoXCIDLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
-=======
-  "dgSpecHash": "swhb6CMx/MkNogvX9tnt6zB0wjB6qgQXFEydcxvzPg/WhW6uiCId7rIAKAQAGQdznDUkuBVUawEs3TUR+PnSWw==",
-  "success": true,
-  "projectFilePath": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\RestaurantManagement.csproj",
->>>>>>> 45fb6f603a42c3c0dee10f5a577498056814bedb
   "expectedPackageFiles": [
     "C:\\Users\\84352\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\84352\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

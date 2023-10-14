@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
+using static Microsoft.AspNetCore.Razor.Language.TagHelperMetadata;
 
 namespace RestaurantManagement.Pages.Order
 {
@@ -13,10 +15,22 @@ namespace RestaurantManagement.Pages.Order
         }
         public List<Models.TableOrder> tableOrders =new List<Models.TableOrder>();
         public List<Models.TableOrderCustomer> tableOrderCustomers =new List<Models.TableOrderCustomer>();
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            tableOrders = _context.TableOrders.ToList();
-            tableOrderCustomers = _context.TableOrderCustomers.ToList();
+
+            if (HttpContext.Session.GetString("IsAuthenticated") != "true")
+            {
+                // User is authenticated, you can redirect to a secured page
+                return RedirectToPage("/SecurePage");
+            }
+            else
+            {
+                tableOrders = _context.TableOrders.ToList();
+                tableOrderCustomers = _context.TableOrderCustomers.ToList();
+                return Page();
+            }
+
+         
          /*   tableOrderCustomers.ForEach(x =>
             {
                 if (x.Start<DateTime.Now&& x.End>DateTime.Now)
