@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.CategoryMng
+namespace RestaurantManagement.Pages.category
 {
     public class IndexModel : PageModel
     {

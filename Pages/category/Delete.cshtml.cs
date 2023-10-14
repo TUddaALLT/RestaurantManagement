@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.CategoryMng
+namespace RestaurantManagement.Pages.category
 {
     public class DeleteModel : PageModel
     {
@@ -19,7 +19,8 @@ namespace RestaurantManagement.Pages.CategoryMng
         }
 
         [BindProperty]
-      public FoodCategory FoodCategory { get; set; } = default!;
+        public FoodCategory FoodCategory { get; set; } = default!;
+        public IList<Food> Food { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -51,9 +52,21 @@ namespace RestaurantManagement.Pages.CategoryMng
 
             if (foodcategory != null)
             {
-                FoodCategory = foodcategory;
-                _context.FoodCategories.Remove(FoodCategory);
-                await _context.SaveChangesAsync();
+                // Kiểm tra xem có dữ liệu Food thuộc Category đó hay không
+                var foodInCategory = await _context.Foods.AnyAsync(f => f.CategoryId == id);
+
+                if (foodInCategory)
+                {
+                    // Hiển thị thông báo lỗi hoặc chuyển hướng đến trang thông báo lỗi
+                    TempData["AlertMessage"] = "Delete failed! Food still exists in this Category";
+                    return RedirectToPage("./Index");
+                }
+                else
+                {
+                    FoodCategory = foodcategory;
+                    _context.FoodCategories.Remove(FoodCategory);
+                    await _context.SaveChangesAsync();
+                }
             }
 
             return RedirectToPage("./Index");

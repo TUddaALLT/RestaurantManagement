@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
-namespace RestaurantManagement.Pages.FoodMng
+namespace RestaurantManagement.Pages.FoodManager
 {
     public class DeleteModel : PageModel
     {
@@ -28,7 +28,7 @@ namespace RestaurantManagement.Pages.FoodMng
                 return NotFound();
             }
 
-            var food = await _context.Foods.Include(f=>f.Category).FirstOrDefaultAsync(m => m.Id == id);
+            var food = await _context.Foods.Include(f => f.Category).FirstOrDefaultAsync(m => m.Id == id);
 
             if (food == null)
             {
