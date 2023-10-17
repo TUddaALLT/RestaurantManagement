@@ -47,6 +47,7 @@ namespace RestaurantManagement.Pages.Combo
             if (combo != null)
             {
                 Combo = combo;
+                _context.FoodCombos.RemoveRange(_context.FoodCombos.Where(foodCombo => foodCombo.ComboId == Combo.Id));
                 _context.Combos.Remove(Combo);
                 await _context.SaveChangesAsync();
             }
