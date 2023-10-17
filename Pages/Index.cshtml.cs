@@ -11,10 +11,9 @@ namespace RestaurantManagement.Pages
         {
             _logger = logger;
         }
-
         public void OnGet()
         {
-
+            
         }
     }
 }

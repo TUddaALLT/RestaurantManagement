@@ -51,6 +51,21 @@ namespace RestaurantManagement.Pages.FoodManager
 
             if (food != null)
             {
+                List<FoodCombo> foodCombo =  _context.FoodCombos.Where(m => m.FoodId == id).ToList();
+                foodCombo.ForEach(fb =>
+                {
+                    _context.FoodCombos.Remove(fb);
+                    _context.SaveChanges();
+                });
+                List<FoodTable> foodTables = _context.FoodTables.Where(m => m.FoodId == id).ToList();
+                foodTables.ForEach(ft =>
+                {
+                    _context.FoodTables.Remove(ft);
+                    _context.SaveChanges();
+                });
+
+
+
                 Food = food;
                 _context.Foods.Remove(Food);
                 await _context.SaveChangesAsync();

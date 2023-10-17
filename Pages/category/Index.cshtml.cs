@@ -18,17 +18,24 @@ namespace RestaurantManagement.Pages.category
             _context = context;
         }
 
-        public IList<FoodCategory> FoodCategory { get;set; } = default!;
+        public List<FoodCategory> FoodCategory { get;set; } = default!;
 
-        public async Task OnGetAsync()
+        public  IActionResult OnGet()
         {
-            if (_context.FoodCategories != null)
+            if (HttpContext.Session.GetString("IsAdmin") == "true")
             {
-                FoodCategory = await _context.FoodCategories
-                .GroupBy(fc => fc.Name)
-                .Select(group => group.First())
-                .ToListAsync();
+                    FoodCategory =   _context.FoodCategories
+                    .GroupBy(fc => fc.Name)
+                    .Select(group => group.First())
+                    .ToList();
+                     return Page();
+            }   
+            else
+            {
+                return RedirectToPage("/SecurePage");
+
             }
+
         }
     }
 }

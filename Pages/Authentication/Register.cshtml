@@ -1,0 +1,75 @@
+﻿@page
+@model RestaurantManagement.Pages.Authentication.RegisterModel
+@{
+}
+@{
+    Layout = "_MyLayout";
+}
+
+
+<head>
+
+    <style>
+        body {
+            background-color: #D4D4D4;
+        }
+
+        .login-form {
+            width: 500px;
+            margin: 3vh auto;
+            padding: 40px;
+            background-color: white;
+            border: 1px solid #CCC;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+            .login-form input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #CCC;
+                border-radius: 3px;
+            }
+
+            .login-form button {
+                width: 100%;
+                background-color: #444;
+                color: white;
+                padding: 10px;
+                margin-top: 10px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h1>Register Restaurant App</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="Username">Username:</label>
+                <input type="text" class="form-control" id="Username" name="Username" />
+            </div>
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <input type="password" class="form-control" id="Password" name="Password" />
+            </div>
+            <div class="form-group">
+                <label for="Fullname">Full Name:</label>
+                <input type="text" class="form-control" id="Fullname" name="Fullname" />
+            </div>
+            <div class="form-group">
+                <label for="Phone">Phone:</label>
+                <input type="text" class="form-control" id="Phone" name="Phone" />
+            </div>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" class="form-control" id="Email" name="Email" />
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+</body>
+

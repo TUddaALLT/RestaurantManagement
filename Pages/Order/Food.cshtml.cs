@@ -17,12 +17,22 @@ namespace RestaurantManagement.Pages.Order
         public List<Models.FoodCategory> foodCategories = new List<FoodCategory> { };
         public List<Models.Combo> combo = new List<Models.Combo> { };
         public List<Models.FoodCombo> foodcombo = new List<FoodCombo> { };
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            //food = _context.Foods.ToList();
-            foodCategories= _context.FoodCategories.Include("Foods").ToList();
-            combo = _context.Combos.Include("FoodCombos").ToList();
-            foodcombo = _context.FoodCombos.Include("Food").ToList();
+            if (HttpContext.Session.GetString("IsAuthenticated") != "true")
+            {
+                // User is authenticated, you can redirect to a secured page
+                return RedirectToPage("/SecurePage");
+            }
+            else
+            {
+                foodCategories = _context.FoodCategories.Include("Foods").ToList();
+                combo = _context.Combos.Include("FoodCombos").ToList();
+                foodcombo = _context.FoodCombos.Include("Food").ToList();
+                return Page();
+            }
+
+          
         }
         public IActionResult OnPost(String[] foodId, String[] comboId )
         {
