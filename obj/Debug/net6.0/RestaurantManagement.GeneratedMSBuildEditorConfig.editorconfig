@@ -28,24 +28,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Category/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Category/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Category/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+[C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/84352/source/repos/RestaurantManagement/RestaurantManagement/Pages/Combo/Create.cshtml]
