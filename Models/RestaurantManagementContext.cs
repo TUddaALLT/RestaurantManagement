@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using RestaurantManagement.Models;
 
 namespace RestaurantManagement.Models
 {
@@ -33,7 +34,6 @@ namespace RestaurantManagement.Models
                 string connectionString = config.GetConnectionString("MyDB");
                 optionsBuilder.UseSqlServer(connectionString);
             }
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

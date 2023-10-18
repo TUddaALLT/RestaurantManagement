@@ -16,24 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\VSProject\Repos\RestaurantManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/CategoryMng/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcQ3JlYXRlLmNzaHRtbA==
+[D:/VSProject/Repos/RestaurantManagement/Pages/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/CategoryMng/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRGVsZXRlLmNzaHRtbA==
+[D:/VSProject/Repos/RestaurantManagement/Pages/Authentication/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/CategoryMng/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRGV0YWlscy5jc2h0bWw=
+[D:/VSProject/Repos/RestaurantManagement/Pages/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/CategoryMng/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcRWRpdC5jc2h0bWw=
+[D:/VSProject/Repos/RestaurantManagement/Pages/category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/CategoryMng/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlNbmdcSW5kZXguY3NodG1s
+[D:/VSProject/Repos/RestaurantManagement/Pages/category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VSProject/Repos/RestaurantManagement/Pages/category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VSProject/Repos/RestaurantManagement/Pages/category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VSProject/Repos/RestaurantManagement/Pages/category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VSProject/Repos/RestaurantManagement/Pages/Combo/Create.cshtml]
@@ -60,28 +72,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[D:/VSProject/Repos/RestaurantManagement/Pages/FoodManager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/FoodMng/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xDcmVhdGUuY3NodG1s
+[D:/VSProject/Repos/RestaurantManagement/Pages/FoodManager/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/FoodMng/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xEZWxldGUuY3NodG1s
+[D:/VSProject/Repos/RestaurantManagement/Pages/FoodManager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/FoodMng/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xEZXRhaWxzLmNzaHRtbA==
+[D:/VSProject/Repos/RestaurantManagement/Pages/FoodManager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/FoodMng/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VSProject/Repos/RestaurantManagement/Pages/FoodMng/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1uZ1xJbmRleC5jc2h0bWw=
+[D:/VSProject/Repos/RestaurantManagement/Pages/FoodManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZE1hbmFnZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VSProject/Repos/RestaurantManagement/Pages/Index.cshtml]
@@ -104,8 +112,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VSProject/Repos/RestaurantManagement/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[D:/VSProject/Repos/RestaurantManagement/Pages/SecurePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjdXJlUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VSProject/Repos/RestaurantManagement/Pages/Shared/_ValidationScriptsPartial.cshtml]
@@ -131,3 +139,7 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/VSProject/Repos/RestaurantManagement/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fclunk8him
+
+[D:/VSProject/Repos/RestaurantManagement/Pages/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-wa8ovfksbz

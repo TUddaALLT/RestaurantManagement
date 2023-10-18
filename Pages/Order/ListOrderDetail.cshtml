@@ -2,3 +2,15 @@
 @model RestaurantManagement.Pages.Order.ListOrderDetailModel
 @{
 }
+@foreach (var c in Model.tableOrderCustomers){
+    foreach(var t in Model.tableOrders)
+    {
+        if(t.Id == c.TableOrderId)
+        {
+            <p>Floor: @t.Floor</p>
+            <p>Number: @t.Number</p>
+        }
+    }
+    <p>Start: @c.Start</p>
+    <p>End: @c.End</p>
+}

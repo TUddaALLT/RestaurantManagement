@@ -11,8 +11,18 @@ namespace RestaurantManagement.Pages.TableOrder
         {
             _context=context;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("IsAdmin") == "true")
+            {
+                 
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/SecurePage");
+
+            }
         }
         public void OnPost(String description , int floor, int number)
         {
