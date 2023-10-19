@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\FoodCombo\**" />
+    <Content Remove="Pages\FoodCombo\**" />
+    <EmbeddedResource Remove="Pages\FoodCombo\**" />
+    <None Remove="Pages\FoodCombo\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.22">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\FoodCombo\" />
+    <Folder Include="wwwroot\css\category\" />
   </ItemGroup>
 
 </Project>
