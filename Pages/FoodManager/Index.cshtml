@@ -5,43 +5,60 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>List food</h2>
-
-<p>
-    <a asp-page="Create">Create New Food</a>
-</p>
 @{
     var distinctCategoryNames = Model.Food.Select(f => f.Category.Name).Distinct();
 }
 
-@foreach (var categoryName in distinctCategoryNames)
-{
-    <h2>@categoryName</h2>
+<div class="body">
+    <div class="menu">
+        <div>
+            <h2 class="menutext">MENU FOODS</h2>
+        </div>       
+    </div>
     <table class="table">
-        <thead>
+        <thead class="theadtable">
             <tr>
-                <th>@Html.DisplayNameFor(model => model.Food[0].Name)</th>
-                <th>@Html.DisplayNameFor(model => model.Food[0].Description)</th>
-                <th>@Html.DisplayNameFor(model => model.Food[0].Price)</th>
-                <th>@Html.DisplayNameFor(model => model.Food[0].Category)</th>
-                <th></th>
+                <th class="title">Category</th>
+                <th class="title">Name</th>
+                <th class="title">Description</th>
+                <th class="title">Price</th>
+                <th class="title">Settings</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model.Food.Where(f => f.Category.Name == categoryName))
+            @foreach (var categoryName in distinctCategoryNames)
             {
+                var foodInCategory = Model.Food.Where(f => f.Category.Name == categoryName).ToList();
                 <tr>
-                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
-                    <td>@Html.DisplayFor(modelItem => item.Price)</td>
-                    <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                    <td rowspan="@foodInCategory.Count">@categoryName</td>
+                    <td>@foodInCategory[0].Name</td>
+                    <td>@foodInCategory[0].Description</td>
+                    <td>@foodInCategory[0].Price</td>
+                    <td class="btncrud">
+                        <a asp-page="./Edit" asp-route-id="@foodInCategory[0].Id">Edit</a>
+                        <a asp-page="./Details" asp-route-id="@foodInCategory[0].Id">Details</a>
+                        <a asp-page="./Delete" asp-route-id="@foodInCategory[0].Id">Delete</a>
                     </td>
                 </tr>
+                @for (int i = 1; i < foodInCategory.Count; i++)
+                {
+                    <tr>
+                        <td>@foodInCategory[i].Name</td>
+                        <td>@foodInCategory[i].Description</td>
+                        <td>@foodInCategory[i].Price</td>
+                        <td class="btncrud">
+                            <a asp-page="./Edit" asp-route-id="@foodInCategory[i].Id">Edit</a>
+                            <a asp-page="./Details" asp-route-id="@foodInCategory[i].Id">Details</a>
+                            <a asp-page="./Delete" asp-route-id="@foodInCategory[i].Id">Delete</a>
+                        </td>
+                    </tr>
+                }
             }
         </tbody>
     </table>
-}
+    <p>
+        <button type="button" class="btn" onclick="location.href='@Url.Page("Create")'">Create New Food</button>
+    </p>
+</div>
+<link href="~/css/foodandcategory/index.css" rel="stylesheet" />
+<link href="~/css/buttoncustom.css" rel="stylesheet" />
