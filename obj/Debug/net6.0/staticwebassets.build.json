@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YRAlUCKutKJ9HcnM6Wa3JEOfhvNIXNYz1M3003VzSSM=",
+  "Hash": "VjhmVIKrWJWWqClEyc2FfhYXzRfZrx8la5jb4rxSuGg=",
   "Source": "RestaurantManagement",
   "BasePath": "_content/RestaurantManagement",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\css\\buttoncustom.css"
     },
     {
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodCreate.css",
+      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Create.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
       "BasePath": "_content/RestaurantManagement",
-      "RelativePath": "css/FoodCreate.css",
+      "RelativePath": "css/FoodandCategory/Create.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\FoodCreate.css"
+      "OriginalItemSpec": "wwwroot\\css\\FoodandCategory\\Create.css"
     },
     {
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodDelete.css",
+      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Delete.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
       "BasePath": "_content/RestaurantManagement",
-      "RelativePath": "css/FoodDelete.css",
+      "RelativePath": "css/FoodandCategory/Delete.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\FoodDelete.css"
+      "OriginalItemSpec": "wwwroot\\css\\FoodandCategory\\Delete.css"
     },
     {
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodDetails.css",
+      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Details.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
       "BasePath": "_content/RestaurantManagement",
-      "RelativePath": "css/FoodDetails.css",
+      "RelativePath": "css/FoodandCategory/Details.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\FoodDetails.css"
+      "OriginalItemSpec": "wwwroot\\css\\FoodandCategory\\Details.css"
     },
     {
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodEdit.css",
+      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Edit.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
       "BasePath": "_content/RestaurantManagement",
-      "RelativePath": "css/FoodEdit.css",
+      "RelativePath": "css/FoodandCategory/Edit.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\FoodEdit.css"
+      "OriginalItemSpec": "wwwroot\\css\\FoodandCategory\\Edit.css"
     },
     {
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodIndex.css",
+      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Index.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
       "BasePath": "_content/RestaurantManagement",
-      "RelativePath": "css/FoodIndex.css",
+      "RelativePath": "css/FoodandCategory/Index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,7 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\FoodIndex.css"
+      "OriginalItemSpec": "wwwroot\\css\\FoodandCategory\\Index.css"
     },
     {
       "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\header.css",

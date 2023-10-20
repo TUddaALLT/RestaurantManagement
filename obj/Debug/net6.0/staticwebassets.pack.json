@@ -5,24 +5,24 @@
       "PackagePath": "staticwebassets\\RestaurantManagement.bundle.scp.css"
     },
     {
-      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodCreate.css",
-      "PackagePath": "staticwebassets\\css\\FoodCreate.css"
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Create.css",
+      "PackagePath": "staticwebassets\\css\\FoodandCategory\\Create.css"
     },
     {
-      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodDelete.css",
-      "PackagePath": "staticwebassets\\css\\FoodDelete.css"
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Delete.css",
+      "PackagePath": "staticwebassets\\css\\FoodandCategory\\Delete.css"
     },
     {
-      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodDetails.css",
-      "PackagePath": "staticwebassets\\css\\FoodDetails.css"
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Details.css",
+      "PackagePath": "staticwebassets\\css\\FoodandCategory\\Details.css"
     },
     {
-      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodEdit.css",
-      "PackagePath": "staticwebassets\\css\\FoodEdit.css"
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Edit.css",
+      "PackagePath": "staticwebassets\\css\\FoodandCategory\\Edit.css"
     },
     {
-      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodIndex.css",
-      "PackagePath": "staticwebassets\\css\\FoodIndex.css"
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Index.css",
+      "PackagePath": "staticwebassets\\css\\FoodandCategory\\Index.css"
     },
     {
       "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\background.jpg",
