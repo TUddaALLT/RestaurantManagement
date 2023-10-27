@@ -1,14 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "j4uYzwJbicr8vcsb62Re8ToIaxr45/ft0vPXhxKhxAM=",
-=======
-<<<<<<< HEAD
-  "Hash": "U1He7968/9jb9tH/WYAS6EEca1SylXeerprpDyzo1So=",
-=======
-  "Hash": "VjhmVIKrWJWWqClEyc2FfhYXzRfZrx8la5jb4rxSuGg=",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
   "Source": "RestaurantManagement",
   "BasePath": "_content/RestaurantManagement",
   "Mode": "Default",
@@ -18,39 +10,17 @@
     {
       "Name": "RestaurantManagement\\wwwroot",
       "Source": "RestaurantManagement",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RestaurantManagement.styles.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RestaurantManagement.styles.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RestaurantManagement.styles.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "RestaurantManagement.styles.css",
       "AssetKind": "All",
@@ -61,31 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RestaurantManagement.styles.css"
-=======
-<<<<<<< HEAD
-      "OriginalItemSpec": "D:\\VSProject\\Repos\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RestaurantManagement.styles.css"
-    },
-    {
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RestaurantManagement.bundle.scp.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RestaurantManagement.styles.css"
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
     },
     {
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RestaurantManagement.bundle.scp.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Computed",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-=======
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "RestaurantManagement.bundle.scp.css",
       "AssetKind": "All",
@@ -96,20 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RestaurantManagement.bundle.scp.css"
-=======
-<<<<<<< HEAD
-      "OriginalItemSpec": "D:\\VSProject\\Repos\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RestaurantManagement.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\css\\site.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "OriginalItemSpec": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RestaurantManagement.bundle.scp.css"
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
     },
     {
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\css\\background.jpg",
@@ -251,12 +190,7 @@
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\css\\site.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -270,24 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\favicon.ico",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\favicon.ico",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\favicon.ico",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -301,24 +221,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\js\\site.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\js\\site.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\js\\site.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -332,24 +238,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -363,24 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -394,24 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -425,24 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -456,24 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -487,24 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -518,24 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -549,24 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -580,24 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -611,24 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -642,24 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -673,24 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -704,24 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -735,24 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -766,24 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -797,24 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -828,24 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -859,24 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -890,24 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -921,24 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -952,24 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -983,24 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1014,24 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1045,24 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1076,24 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1107,24 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1138,24 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1169,24 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1200,24 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1231,24 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1262,24 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1293,24 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1324,24 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1355,24 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1386,24 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1417,24 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1448,24 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1479,24 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1510,24 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1541,24 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1572,24 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1603,24 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1634,24 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1665,24 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1696,24 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1727,24 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1758,24 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1789,24 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1820,24 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1851,24 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1882,24 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1913,24 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1944,24 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1975,24 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2006,24 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2037,24 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2068,24 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "RestaurantManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\wwwroot\\",
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VSProject\\Repos\\RestaurantManagement\\wwwroot\\",
-=======
-      "Identity": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "RestaurantManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\",
->>>>>>> 15489086cc5ee8072cc8b49a192ce21e9e079a24
->>>>>>> 41ea1dbde1e2eaa1953e72b3c98017c46ba978e4
       "BasePath": "_content/RestaurantManagement",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

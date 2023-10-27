@@ -34,32 +34,40 @@ namespace RestaurantManagement.Pages.Order
 
           
         }
-        public IActionResult OnPost(String[] foodId, String[] comboId )
+        public IActionResult OnPost(String[] foodId, String[] comboId , int[] number_food, int[] number_combo)
         {
             if(foodId.Length!= 0)
             {
-
-                 foodId.ToList().ForEach(food => {
-                     _context.FoodTables.Add(new Models.FoodTable
-                     {
-                         FoodId =int.Parse(food),
-                         TableOrderCustomerId = int.Parse(HttpContext.Session.GetString("TableOrderCustomerId")) // get from session
-
-                     });
+                for(int i = 0; i < foodId.Length; i++)
+                {
+                    _context.FoodTables.Add(new Models.FoodTable
+                    {
+                        FoodId = int.Parse(foodId[i]),
+                        TableOrderCustomerId = int.Parse(HttpContext.Session.GetString("TableOrderCustomerId")) ,// get from session
+                        Number = number_food[i],
+                    });
                     _context.SaveChanges();
-                 });
+
+                }
+                 
             }
             if(comboId.Length!= 0)
             {
-                comboId.ToList().ForEach(combo => {
 
+                for (int i = 0;i < comboId.Length; i++)
+                {
                     _context.FoodTables.Add(new Models.FoodTable
                     {
-                        ComboId = int.Parse(combo),
-                        TableOrderCustomerId = int.Parse(HttpContext.Session.GetString("TableOrderCustomerId"))// get from session
+                        ComboId = int.Parse(comboId[i]),
+                        TableOrderCustomerId =
+                        int.Parse(HttpContext.Session.GetString("TableOrderCustomerId")) ,// get from session,
+                        Number = number_combo[i] 
                     });
                     _context.SaveChanges();
-                });
+
+                }
+
+                
             }
          
             return RedirectToPage("/order/success");

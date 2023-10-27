@@ -26,18 +26,19 @@ namespace RestaurantManagement.Pages.Authentication
             }
         }
         public String message;
-        public IActionResult OnPost(String Username, String Password)
+        public IActionResult OnPost(String Email, String Password)
         {
-            Models.Customer customer = _context.Customers.FirstOrDefault(x => x.Username == Username && x.Password == Password);
-           if (_context.Customers.FirstOrDefault(x => x.Username == Username && x.Password == Password)!= null)
+            Models.Customer customer = _context.Customers.FirstOrDefault(x => x.Email == Email && x.Password == Password);
+           if (_context.Customers.FirstOrDefault(x => x.Email == Email && x.Password == Password)!= null)
             {
-                if(Username == "admin")
+                if(Email == "admin")
                 {
                     HttpContext.Session.SetString("IsAdmin", "true");
                     return RedirectToPage("/foodmanager/index");
                 }
-                    HttpContext.Session.SetString("IsAuthenticated", "true");
-                       HttpContext.Session.SetString("Username", Username);
+                HttpContext.Session.SetString("IsAuthenticated", "true");
+                HttpContext.Session.SetString("Username", customer.Username);
+                HttpContext.Session.SetString("Email", Email);
                 HttpContext.Session.SetString("id",customer.Id +"");
                 return RedirectToPage("/Order/Table");
             }

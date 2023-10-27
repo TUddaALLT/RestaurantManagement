@@ -1,15 +1,15 @@
 ﻿@page
-@model RestaurantManagement.Pages.Authentication.LoginModel
+@model RestaurantManagement.Pages.Authentication.OTPModel
 @{
-}
+} 
 @{
     Layout = "_MyLayout";
 }
 
 
- 
+
 <head>
-  
+
     <style>
         body {
             background-color: #D4D4D4;
@@ -47,21 +47,16 @@
 </head>
 <body>
     <div class="login-form">
-        <h1>Login Restaurant App</h1>
+        <h1>Register</h1>
         <form method="post">
             <div class="form-group">
-                <label for="Email">Email:</label>
-                <input type="email" class="form-control" id="Email" name="Email" />
-            </div>
-            <div class="form-group">
-                <label for="Password">Password:</label>
-                <input type="password" class="form-control" id="Password" name="Password" />
-            </div>
-            <h1 style="color:red">@Model.message</h1>
-            <button href=""  class="btn btn-primary">Reset Password</button>
-            <button type="submit" class="btn btn-primary">Login</button>
+                <label for="Email">Enter OTP from email:</label>
+                <input type="text" class="form-control"  name="Otp" />
+            </div> 
+            <h3 style="color:red">@Model.message</h3>
+            <button type="submit" class="btn btn-primary">Next</button>
         </form>
     </div>
 </body>
- 
+
 
