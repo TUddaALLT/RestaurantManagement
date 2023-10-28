@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using RestaurantManagement.Models;
 
@@ -7,17 +8,18 @@ namespace RestaurantManagement.Pages.Order
 {
     public class IndexModel : PageModel
     {
-
+        private readonly IHubContext<ResHub.ResHub> _hubContext;
         private readonly RestaurantManagementContext _context;
-        public IndexModel(RestaurantManagementContext context)
+        public IndexModel(RestaurantManagementContext context, IHubContext<ResHub.ResHub> hubContext)
         {
             _context = context;
+            _hubContext = hubContext;
         }
         public List<Models.Food> food = new List<Food> { };
         public List<Models.FoodCategory> foodCategories = new List<FoodCategory> { };
         public List<Models.Combo> combo = new List<Models.Combo> { };
         public List<Models.FoodCombo> foodcombo = new List<FoodCombo> { };
-        public IActionResult OnGet()
+        public async Task<IActionResult> OnGet()
         {
             if (HttpContext.Session.GetString("IsAuthenticated") != "true")
             {

@@ -31,7 +31,7 @@ namespace RestaurantManagement.Pages.Authentication
             Models.Customer customer = _context.Customers.FirstOrDefault(x => x.Email == Email && x.Password == Password);
            if (_context.Customers.FirstOrDefault(x => x.Email == Email && x.Password == Password)!= null)
             {
-                if(Email == "admin")
+                if(Email == "admin@gmail.com")
                 {
                     HttpContext.Session.SetString("IsAdmin", "true");
                     return RedirectToPage("/foodmanager/index");
