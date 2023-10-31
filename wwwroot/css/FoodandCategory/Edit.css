@@ -20,10 +20,10 @@
 .row {
     background-color: #ffe8a4;
     display: flex;
-    margin-left: 400px;
-    margin-right: 400px;
     justify-content: center;
     padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .btncrud {

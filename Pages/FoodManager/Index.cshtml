@@ -8,11 +8,10 @@
 @{
     var distinctCategoryNames = Model.Food.Select(f => f.Category.Name).Distinct();
 }
-
 <div class="body">
     <div class="menu">
         <div>
-            <h2 class="menutext">MENU FOODS</h2>
+            <h2 class="menutext">MENU</h2>
         </div>       
     </div>
     <table class="table">
@@ -25,7 +24,7 @@
                 <th class="title">Settings</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tbodyfood">
             @foreach (var categoryName in distinctCategoryNames)
             {
                 var foodInCategory = Model.Food.Where(f => f.Category.Name == categoryName).ToList();

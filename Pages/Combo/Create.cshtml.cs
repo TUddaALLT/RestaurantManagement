@@ -55,7 +55,6 @@ namespace RestaurantManagement.Pages.Combo
 
             return RedirectToPage("./Index");
         }
-
         public List<Food> GetAllFoods()
         {
             return _context.Foods.ToList();

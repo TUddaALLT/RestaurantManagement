@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\RestaurantManagement.bundle.scp.css"
     },
     {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\Authentication\\HomePage.css",
+      "PackagePath": "staticwebassets\\css\\Authentication\\HomePage.css"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\Authentication\\LoginAndRegister.css",
+      "PackagePath": "staticwebassets\\css\\Authentication\\LoginAndRegister.css"
+    },
+    {
       "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\FoodandCategory\\Create.css",
       "PackagePath": "staticwebassets\\css\\FoodandCategory\\Create.css"
     },
@@ -25,20 +33,56 @@
       "PackagePath": "staticwebassets\\css\\FoodandCategory\\Index.css"
     },
     {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\Layout.css",
+      "PackagePath": "staticwebassets\\css\\Layout.css"
+    },
+    {
       "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\background.jpg",
       "PackagePath": "staticwebassets\\css\\background.jpg"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\baoson.jpg",
+      "PackagePath": "staticwebassets\\css\\baoson.jpg"
     },
     {
       "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\buttoncustom.css",
       "PackagePath": "staticwebassets\\css\\buttoncustom.css"
     },
     {
-      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\header.css",
-      "PackagePath": "staticwebassets\\css\\header.css"
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\duongtu.jpg",
+      "PackagePath": "staticwebassets\\css\\duongtu.jpg"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\fb.png",
+      "PackagePath": "staticwebassets\\css\\fb.png"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\google.png",
+      "PackagePath": "staticwebassets\\css\\google.png"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\hero.png",
+      "PackagePath": "staticwebassets\\css\\hero.png"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\iconrestaurant.png",
+      "PackagePath": "staticwebassets\\css\\iconrestaurant.png"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\minh.jpg",
+      "PackagePath": "staticwebassets\\css\\minh.jpg"
     },
     {
       "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\css\\twitter.png",
+      "PackagePath": "staticwebassets\\css\\twitter.png"
     },
     {
       "Id": "D:\\Semester 7\\PRN221\\PRNUpdateFromGit\\RestaurantManagement\\wwwroot\\favicon.ico",

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using RestaurantManagement.Models;
 
 namespace RestaurantManagement.Pages.Combo
 {
@@ -66,5 +67,6 @@ namespace RestaurantManagement.Pages.Combo
         {
           return (_context.Combos?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
     }
 }
