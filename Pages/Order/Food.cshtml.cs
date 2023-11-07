@@ -55,7 +55,6 @@ namespace RestaurantManagement.Pages.Order
             }
             if(comboId.Length!= 0)
             {
-
                 for (int i = 0;i < comboId.Length; i++)
                 {
                     _context.FoodTables.Add(new Models.FoodTable
