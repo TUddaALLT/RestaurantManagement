@@ -53,8 +53,7 @@ namespace RestaurantManagement.Pages.Authentication
 			catch (Exception ex)
 			{
 				message = "Something went wrong!!";
-				ModelState.AddModelError("", $"Error: {ex.Message}");
-				
+				ModelState.AddModelError("", $"Error: {ex.Message}");				
 			}
 
             return Page();

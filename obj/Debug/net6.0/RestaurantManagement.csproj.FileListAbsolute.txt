@@ -276,3 +276,19 @@ C:\Users\84352\source\repos\RestaurantManagement\RestaurantManagement\obj\Debug\
 C:\Users\84352\source\repos\RestaurantManagement\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.pdb
 C:\Users\84352\source\repos\RestaurantManagement\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.genruntimeconfig.cache
 C:\Users\84352\source\repos\RestaurantManagement\RestaurantManagement\obj\Debug\net6.0\ref\RestaurantManagement.dll
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.csproj.AssemblyReference.cache
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.AssemblyInfoInputs.cache
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.AssemblyInfo.cs
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.csproj.CoreCompileInputs.cache
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.RazorAssemblyInfo.cache
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.RazorAssemblyInfo.cs
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\staticwebassets\msbuild.RestaurantManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\staticwebassets\msbuild.build.RestaurantManagement.props
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RestaurantManagement.props
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RestaurantManagement.props
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.dll
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\refint\RestaurantManagement.dll
+D:\Semester 7\PRN221\PRNUpdateFromGit\RestaurantManagement\obj\Debug\net6.0\RestaurantManagement.pdb
