@@ -82,19 +82,29 @@
       }
     }
   </script>
+<div class="imgHeader">
+   <img src="~/css/background.jpg" alt="Logo" class="logo-image">
+</div>
 <form method="post" onsubmit="return validateDate()">
-    <h1>Đặt bàn</h1>
-    @foreach (var c in Model.tableOrders)
-    {
-        <div>
-            <input required type="radio" name="table_id" value="@c.Id" id="table-@c.Id">
-            <label for="table-@c.Id">@c.Description, Tầng: @c.Floor, Số bàn: @c.Number</label>
+    <h2 class="menutext">Đặt bàn</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 bg-danger">
+                @foreach (var c in Model.tableOrders)
+                    {
+                        <div>
+                            <input required type="radio" name="table_id" value="@c.Id" id="table-@c.Id">
+                            <label for="table-@c.Id">@c.Description, Tầng: @c.Floor, Số bàn: @c.Number</label>
+                        </div>
+                    }
+            </div>
+            <div class="col-md-6 bg-primary">
+                StartDate: <input required type="datetime-local" id="datetime1" name="start"><br />
+                EndDate: <input required type="datetime-local" id="datetime" name="end"><br>
+            </div>
         </div>
-    }
-    <div>
-        Start: <input required type="datetime-local" id="datetime1" name="start">
-        End: <input required type="datetime-local" id="datetime" name="end"><br>
     </div>
+    
     <h2 style="color:red">@Model.message</h2>
     <input  onclick="loadingss()" type="submit" value="Đặt bàn">
 
@@ -135,12 +145,6 @@
 
     }
 });
-
-     
-
-
- 
-
 </script>
 
  
