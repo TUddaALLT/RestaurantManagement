@@ -47,14 +47,14 @@ namespace RestaurantManagement.Pages.Authentication
 
 					HttpContext.Session.SetString("EMAIL_REGISTER", Email);
 					HttpContext.Session.SetString("OTP_REGISTER", OTPcode);
-					return RedirectToPage("/Authentication/OTP");
+                    HttpContext.Session.SetString("TITLE", "Register");
+                    return RedirectToPage("/Authentication/OTP");
                 }
 			}
 			catch (Exception ex)
 			{
 				message = "Something went wrong!!";
-				ModelState.AddModelError("", $"Error: {ex.Message}");
-				
+				ModelState.AddModelError("", $"Error: {ex.Message}");				
 			}
 
             return Page();

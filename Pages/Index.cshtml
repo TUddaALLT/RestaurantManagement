@@ -7,104 +7,133 @@
     Layout = null;
 }
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Restaurant Management - Home</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        h1 {
-            font-size: 2em;
-        }
-
-        .header-buttons {
-            display: flex;
-            gap: 10px;
-        }
-
-            .header-buttons a {
-                text-decoration: none;
-                color: #fff;
-                padding: 8px 12px;
-                background-color: #007bff;
-                border: none;
-                border-radius: 4px;
-            }
-
-        .introduction {
-            background-image: url('restaurant-image.jpg'); /* Add your image URL */
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            padding: 100px 0;
-            text-align: center;
-        }
-
-            .introduction h2 {
-                font-size: 2em;
-                margin-bottom: 20px;
-            }
-
-        main {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RestaurantManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RestaurantManagement.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to Restaurant </h1>
-        <div class="header-buttons">
-            <a href="/authentication/login">Login</a>
-             <a href="/authentication/register">Register</a>
-            <a href="/authentication/logout">Logout</a>
+    <header class="header">
+        <div class="imgHeader">
+            <img src="~/css/background.jpg" alt="Logo" class="logo-image">
         </div>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
+            <div class="container headerWeb">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 ulheader">
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/login">Login</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/register">Register</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <div class="introduction">
-        <img src="https://static9.depositphotos.com/1057833/1126/v/450/depositphotos_11261796-stock-illustration-restaurant-menu-design-vector.jpg" alt="Restaurant Image"> <!-- Add your image URL and alt text -->
-       
+    <div class="container mb-5 aboutus">      
+        <div class="row">
+            <div class="col-md-6  aboutustext">  
+                <h2 id="text" class="textbranch d-flex justify-content-center mb-3 text-danger">STORY ABOUT MY BRANCH</h2>
+                <p>
+                    Là hệ thống nhà hàng buffet lẩu tại Hà Nội, rất được khách hàng tin tưởng và đánh giá cao về chất lượng. Với giá buffet chỉ từ 139.000 đồng, khách hàng sẽ được thưởng thức tới gần 50 món ăn đa dạng từ ba chỉ bò Mỹ, hải sản tổng hợp, khai vị kích thích vị giác với salad rau Hàn Quốc, Gà chiên Hàn Quốc, Đảo sườn Thái Lan, Há cảo chiên,… cùng vô vàn những món ăn, thức uống hấp dẫn khác.
+                </p>
+                <p>
+                    Với sự ủng hộ, yêu thích của khách hàng, Buffet Lẩu đã không ngừng phát triển và có tới 10 cơ sở trên khắp địa bàn Hà Nội:
+                    <ul>
+                        <li>
+                            CS1: 134 Trần Đại Nghĩa, Hai Bà Trưng.
+                        </li>
+                        <li>
+                            CS3: Số 21 đường 19/5, Văn Quán, Hà Đông.
+                        </li>
+                        <li>
+                            CS6: 265 Tô Hiệu, Cầu Giấy.
+                        </li>
+                        <li>
+                            CS7: Số 51A Hồ Tùng Mậu, Cầu Giấy.
+                        </li>                       
+                    </ul>                   
+                </p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center"> 
+                <img src="~/css/hero.png" class="imgbranch"/>
+            </div>
+        </div>
     </div>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at felis nec dui cursus fringilla.</p>
-        </section>
-        <section>
-            <h2>Our Menu</h2>
-            <p>Explore our delicious menu with a variety of options for all tastes.</p>
-        </section>
-        <section>
-            <h2>Reservations</h2>
-            <p>Make a reservation to enjoy a memorable dining experience at our restaurant.</p>
-        </section>
-    </main>
-    <footer>
-        <h3>Contact Us</h3>
-        <p>123 Main Street, City, Country</p>
-        <p>Email: info@restaurant.com</p>
-        <p>Phone: +1-123-456-7890</p>
-        <p>&copy; 2023 Restaurant Management</p>
-    </footer>
+    <div class="container feedback">
+        <div class="row">
+            <div class="col-md-12 textfeedback mt-5 mb-5 d-flex justify-content-center text-danger">
+                <h2>FEEDBACK</h2>
+            </div>
+            <div class="col-md-4 fb">
+                <p>
+                    Messi có dịp ghé Restaurant vào một dịp trời thu Hà Nội. Ăn một lần mà rất nhớ vị lẩu ở đây, có gì đó khác so với các nhà hàng buffet mình đã từng ăn. Nếu có dịp quay lại Hà Nội, chắc chắn mình sẽ lại ghé qua lần nữa .
+                    Mọi người cứ đến ăn để trải nghiệm như Messi nhé.
+                </p>
+                <div class="imgfb">
+                    <img src="https://media.bongda.com.vn/files/hai.phan/2018/11/17/s1-1902.jpg" class="imgfb1" />
+                </div>
+            </div>
+            <div class="col-md-4 fb">
+                <p>
+                    Restaurant là nhà hàng mình thấy đặc biệt ngon và phù hợp với các bạn trẻ. Mọi người cứ thử đến ăn Lẩu Wang để trải nghiệm nhé. Ronaldo nghiện Lẩu Wang mất rồi. Chắc chắn sẽ còn đến đây nhiều lần đấy !
+                    khám phá món mới cùng Ronaldo
+                </p>  
+                <div class="imgfb">
+                    <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2021/9/13/953112/Ronaldo-Meal-1.jpg" class="imgfb1" />
+                </div>
+            </div>
+            <div class="col-md-4 fb">
+                <p>
+                    Naymar thực sự hài lòng về đồ ăn tại Restaurant. Nhiều đồ ăn tươi ngon giá cả lại hợp lý với hầu hết các bạn trẻ. Khi nào có liên hoan đông người chắc chắn Quỳnh sẽ rủ bạn bè đến đây. Hi vọng nhà hàng sẽ phát triển hơn nữa. Nhiều bạn đến đây sẽ thích cho xem.
+                    Neymar đã ăn tại đây
+                </p>   
+                <div class="imgfb">
+                    <img src="https://64.media.tumblr.com/81bf0d05bcf1945882c7c35e1dd6ba5a/tumblr_p5tpyspOG81tgrk4vo1_640.jpg" class="imgfb1" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row contact">
+        <div class="col-md-12 textfeedback d-flex justify-content-center text-danger">
+            <h2>CONTACT</h2>
+        </div>
+        <div class="col-md-6 contacttext">
+            <p>FPT University Hoa Lac Campus, Thach That, Ha Noi</p>
+            <p>Email: info@restaurant.com</p>
+            <p>Phone: +1-123-456-7890</p>
+            <p>&copy; 2023 Restaurant Management</p>
+        </div>
+        <div class="col-md-6 contactimg">
+            <div>
+                <a href="https://www.facebook.com"><img src="~/css/fb.png" alt="Logo"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/google.png" alt="Logo"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/twitter.png" alt="Logo"></a>
+            </div>          
+        </div>
+    </div>   
 </body>
 </html>
+<link href="~/css/authentication/homepage.css" rel="stylesheet" />
+<script>
+    // Optional: If you want to stop the rotation on hover
+    var img = document.querySelector('.imgbranch');
+
+    img.addEventListener('mouseout', function () {
+        img.style.animationPlayState = 'running';
+    });
+</script>
