@@ -5,23 +5,30 @@
     display: inline-block;
 }
 .menu {
-    width: 100%;
+    width: 10%;
     font-family: Open Sans;
-    color: #fb2e00;
+    color: yellow;
     border-radius: 10px;
     text-align: center;
+    background-color: #fb2e00;
 }
 .menutext{
     font-size:30px;
 }
-.table{
-    background-color:#ffe8a4;
+.table {
+    background-color: #ffe8a4;
+    border: 2px solid red;
+    font-weight:bold;
 }
 .theadtable {
     background-color: #fb2e00;
+    text-align:center;
 }
 .title{
     color:yellow;
+}
+.tbodyfood{
+    text-align:center;
 }
 .btncrud a {
     border: 2px solid #fb2e00;

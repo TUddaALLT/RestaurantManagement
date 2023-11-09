@@ -8,7 +8,7 @@ namespace RestaurantManagement.Pages.Sendmail
     public class IndexModel : PageModel
     {
         private const string sendingEmail = "sonnvbhe161489@fpt.edu.vn";
-        private const string sendingEmailPassword = ""; // mail password, if use 2 factor auth, this will be app password
+        private const string sendingEmailPassword = "ehcy ilad zkyt zhpm"; // mail password, if use 2 factor auth, this will be app password
         private const string smtpServer = "smtp.gmail.com"; // smtp server for gmail
         string OTPcode; // OTP code ..duh
 
@@ -16,7 +16,7 @@ namespace RestaurantManagement.Pages.Sendmail
         {
         }
 
-        public void OnPost()
+        public async Task  OnPost()
         {
             try
             {
@@ -43,7 +43,7 @@ namespace RestaurantManagement.Pages.Sendmail
                     mail.Subject = "Sending code for restaurant manager";
                     mail.Body = "Your OTP code " + OTPcode;
 
-                    smtpClient.Send(mail);
+                    await  smtpClient.SendMailAsync(mail);
                 }
             }
             catch (Exception ex)

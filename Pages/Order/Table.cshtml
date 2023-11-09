@@ -52,7 +52,37 @@
     }
 </style>
 
-<form method="post">
+  <script>
+    function validateDate() {
+      var inputDate = new Date(document.getElementById("datetime").value);
+      var currentDate = new Date();
+
+      // Set the current date time to the end of today (23:59:59)
+      currentDate.setHours(23, 59, 59, 999);
+
+      if (inputDate <= currentDate && inputDate >= new Date()) {
+        return true; // Date is valid
+      } else {
+        alert("Please select a date and time from now to the end of today.");
+        return false; // Prevent form submission
+      }
+
+
+       var inputDate = new Date(document.getElementById("datetime1").value);
+      var currentDate = new Date();
+
+      // Set the current date time to the end of today (23:59:59)
+      currentDate.setHours(23, 59, 59, 999);
+
+      if (inputDate <= currentDate && inputDate >= new Date()) {
+        return true; // Date is valid
+      } else {
+        alert("Please select a date and time from now to the end of today.");
+        return false; // Prevent form submission
+      }
+    }
+  </script>
+<form method="post" onsubmit="return validateDate()">
     <h1>Đặt bàn</h1>
     @foreach (var c in Model.tableOrders)
     {
@@ -65,28 +95,53 @@
         Start: <input required type="datetime-local" id="datetime1" name="start">
         End: <input required type="datetime-local" id="datetime" name="end"><br>
     </div>
-    <input type="submit" value="Đặt bàn">
+    <h2 style="color:red">@Model.message</h2>
+    <input  onclick="loadingss()" type="submit" value="Đặt bàn">
+
+
+         <div id="reservation-list" style="display:flex; flex-wrap:wrap">
+        <h3>Bàn và thời gian đã có người đặt trong hôm nay</h3>
+        @foreach(var tb in Model.tableOrderCustomers){
+        <div style="border:solid 1px red; margin:5px" >
+            <p>@tb.TableOrder.Description, Tầng: @tb.TableOrder.Floor, Số bàn: @tb.TableOrder.Number</p>
+        <p>Start: @tb.Start</p
+        <p>End: @tb.End</p>
+        </div>
+         }
+        </div>
 </form>
 
-
-
-
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
 <script>
-  const datetimeInput = document.getElementById("datetime");
-  const now = new Date();
-  const nowISOString = now.toISOString().slice(0, 16); // Get current date and time in ISO format
-
-  datetimeInput.min = nowISOString;
-
-    const datetimeInput1 = document.getElementById("datetime1");
-  
-
-  datetimeInput1.min = nowISOString;
 
 
+    var connection = new signalR.HubConnectionBuilder().withUrl("/resHub").build();
+    connection.start();
+    // function loadingss(){
+    //     connection.invoke("LoadBook");
+    // }
+    // connection.on("LoadTableBooked", (data) => {
+    //      if(data=="loading"){
+    //          window.location.reload();
+    //      }
+    // });
+    connection.on("LoadTableBooked", function (data) {
+     if (data == "loading") {
+       const myTimeout = setTimeout(myGreeting, 2000);
+
+        function myGreeting() {
+            window.location.reload();
+         }
+
+    }
+});
+
+     
+
+
+ 
 
 </script>
 
+ 
+  

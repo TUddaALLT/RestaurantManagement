@@ -8,92 +8,61 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RestaurantManagement.styles.css" asp-append-version="true" />
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        h1 {
-            font-size: 2em;
-        }
-
-        .header-buttons {
-            display: flex;
-            gap: 10px;
-        }
-
-            .header-buttons a {
-                text-decoration: none;
-                color: #fff;
-                padding: 8px 12px;
-                background-color: #007bff;
-                border: none;
-                border-radius: 4px;
-            }
-
-        .introduction {
-            background-image: url('restaurant-image.jpg'); /* Add your image URL */
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            padding: 100px 0;
-            text-align: center;
-        }
-
-            .introduction h2 {
-                font-size: 2em;
-                margin-bottom: 20px;
-            }
-
-        main {
-            padding: 20px;
-        }
-
-        footer {
-            margin:80vh 0 0 0;
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Restaurant </h1>
+    <header class="">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
+            <div class="container headerWeb">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 ulheader">
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/Index">Back Home</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/order/table">Booking</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/order/listorderdetail">My Booking</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/login">Login</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/register">Register</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+@*     <header> *@
+@*         <h1>Welcome to Restaurant </h1>
         <div class="header-buttons">
             <a href="/order/table">Booking</a>
             <a href="/order/listorderdetail">My Booking</a>
             <a href="/authentication/login">Login</a>
-            <a href="/authentication/register">Register</a>
+            <a href="/authentication/mailconfirm">Register</a>
             <a href="/authentication/logout">Logout</a>
-        </div>
+        </div> *@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    <footer>
-        <h3>Contact Us</h3>
-        <p>123 Main Street, City, Country</p>
-        <p>Email: info@restaurant.com</p>
-        <p>Phone: +1-123-456-7890</p>
-        <p>&copy; 2023 Restaurant Management</p>
-    </footer>
      
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -103,3 +72,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+<link href="~/css/Layout.css" rel="stylesheet" />

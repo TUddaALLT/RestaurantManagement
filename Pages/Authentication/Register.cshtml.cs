@@ -11,8 +11,18 @@ namespace RestaurantManagement.Pages.Authentication
         {
             _context = context;
         }
-        public void OnGet()
+        public String email;
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("EmailConfirmed") == "true")
+            {
+                email = HttpContext.Session.GetString("EMAIL_REGISTER" );
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Authentication/MailConfirm");
+            }
         }
         public IActionResult OnPost(Models.Customer c)
         {
