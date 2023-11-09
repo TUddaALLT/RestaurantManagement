@@ -5,7 +5,7 @@ using System.Net;
 
 namespace RestaurantManagement.Pages.Authentication
 {
-    public class MailComfirmModel : PageModel
+    public class ResetPasswordOTPModel : PageModel
     {
 		private const string sendingEmail = "sonnvbhe161489@fpt.edu.vn";
 		private const string sendingEmailPassword = "ehcy ilad zkyt zhpm"; // mail password, if use 2 factor auth, this will be app password
@@ -15,7 +15,7 @@ namespace RestaurantManagement.Pages.Authentication
 		public void OnGet()
 		{
 		}
-		
+
 		public async Task<IActionResult> OnPostAsync(String Email)
 		{
 			try
@@ -40,24 +40,24 @@ namespace RestaurantManagement.Pages.Authentication
 					//Create mail to send
 
 					mail.To.Add(Request.Form["Email"]);
-					mail.Subject = "Sending code for restaurant manager";
+					mail.Subject = "Sending reset password code for restaurant manager";
 					mail.Body = "Your OTP code " + OTPcode;
 
 					await smtpClient.SendMailAsync(mail);
 
-					HttpContext.Session.SetString("EMAIL_REGISTER", Email);
-					HttpContext.Session.SetString("OTP_REGISTER", OTPcode);
-                    HttpContext.Session.SetString("TITLE", "Register");
+					HttpContext.Session.SetString("EMAIL_RESETPASSWORD", Email);
+					HttpContext.Session.SetString("OTP_RESETPASSWORD", OTPcode);
+                    HttpContext.Session.SetString("TITLE", "Reset password");
                     return RedirectToPage("/Authentication/OTP");
-                }
+				}
 			}
 			catch (Exception ex)
 			{
 				message = "Something went wrong!!";
-				ModelState.AddModelError("", $"Error: {ex.Message}");				
+				ModelState.AddModelError("", $"Error: {ex.Message}");
 			}
 
-            return Page();
-        }
+			return Page();
+		}
 	}
 }

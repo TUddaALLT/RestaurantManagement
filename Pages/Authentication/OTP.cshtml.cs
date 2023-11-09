@@ -16,6 +16,9 @@ namespace RestaurantManagement.Pages.Authentication
                 HttpContext.Session.SetString("EmailConfirmed", "true");
                 return RedirectToPage("/Authentication/Register");
             }
+            else if (HttpContext.Session.GetString("OTP_RESETPASSWORD") == Otp) {
+				return RedirectToPage("/Authentication/ResetPassword");
+			}
             else
             {
                 message = "OTP is wrong! Please Check again!";
