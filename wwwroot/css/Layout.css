@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #ffe8a4;
+    background-color: #c8e2ff;
 }
 .header {
     margin-bottom:50px;
@@ -29,7 +29,7 @@
     width: 200px;
     margin-left: 10px;
     border-radius: 10px;
-    background-color: #fb2e00;
+    background-color: #747b70;
     color: yellow;
 }
     .btndetails:hover {

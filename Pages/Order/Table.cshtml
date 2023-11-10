@@ -50,6 +50,118 @@
     input[type="submit"]:hover {
         background-color: #0056b3;
     }
+    /* Style for container div */
+div {
+    margin-bottom: 10px;
+}
+
+/* Style for radio buttons and labels */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style for date-time inputs */
+input[type="datetime-local"] {
+    margin-bottom: 5px;
+}
+
+/* Style for error message */
+h4 {
+    font-size: 16px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Loading animation styling (you can customize this based on your needs) */
+.loading {
+    display: none;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 10px;
+} 
+/* Keyframe animation for loading spinner */
+ /* Style for the form container */
+ 
+
+/* Style for the label */
+ 
+
+/* Style for datetime input */
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the table */
+table {
+    align-content:center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style table headers */
+th {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style alternating rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style radio button labels */
+label {
+    cursor: pointer;
+}
+
+/* Add some spacing between radio button and label */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
 </style>
 
   <script>
@@ -84,25 +196,47 @@
   </script>
 <form method="post" onsubmit="return validateDate()">
     <h1>Đặt bàn</h1>
-    @foreach (var c in Model.tableOrders)
-    {
-        <div>
-            <input required type="radio" name="table_id" value="@c.Id" id="table-@c.Id">
-            <label for="table-@c.Id">@c.Description, Tầng: @c.Floor, Số bàn: @c.Number</label>
-        </div>
-    }
-    <div>
-        Start: <input required type="datetime-local" id="datetime1" name="start">
-        End: <input required type="datetime-local" id="datetime" name="end"><br>
-    </div>
-    <h2 style="color:red">@Model.message</h2>
+    <table>
+    <thead>
+        <tr>
+            <th>Mô tả</th>
+            <th>Vị trí</th>
+            <th>Số bàn</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model.tableOrders)
+        {
+            <tr>
+                <td>
+                    <input required type="radio" name="table_id" value="@c.Id" id="table-@c.Id">
+                    <label for="table-@c.Id">@c.Description</label>
+                </td>
+                <td>Tầng @c.Floor</td>
+                <td>@c.Number</td>
+            </tr>
+        }
+    </tbody>
+</table>
+    <div style="margin-top:20px">
+    <label for="datetime1">Start</label>
+    <input required type="datetime-local" id="datetime1" name="start">
+
+    <label for="datetime">End</label>
+    <input required type="datetime-local" id="datetime" name="end">
+</div>
+
+    <h4 style="color:red">@Model.message</h4>
     <input  onclick="loadingss()" type="submit" value="Đặt bàn">
 
 
          <div id="reservation-list" style="display:flex; flex-wrap:wrap">
-        <h3>Bàn và thời gian đã có người đặt trong hôm nay</h3>
+        <h3 style="margin:0 auto;padding:20px 0">Bàn và thời gian đã có người đặt trong hôm nay</h3>
         @foreach(var tb in Model.tableOrderCustomers){
-        <div style="border:solid 1px red; margin:5px" >
+        <div style="background-color: #d7e8d4;
+            margin: 5px;
+            padding: 18px;
+            border-radius: 14px;  " >
             <p>@tb.TableOrder.Description, Tầng: @tb.TableOrder.Floor, Số bàn: @tb.TableOrder.Number</p>
         <p>Start: @tb.Start</p
         <p>End: @tb.End</p>
@@ -117,14 +251,7 @@
 
     var connection = new signalR.HubConnectionBuilder().withUrl("/resHub").build();
     connection.start();
-    // function loadingss(){
-    //     connection.invoke("LoadBook");
-    // }
-    // connection.on("LoadTableBooked", (data) => {
-    //      if(data=="loading"){
-    //          window.location.reload();
-    //      }
-    // });
+  
     connection.on("LoadTableBooked", function (data) {
      if (data == "loading") {
        const myTimeout = setTimeout(myGreeting, 2000);

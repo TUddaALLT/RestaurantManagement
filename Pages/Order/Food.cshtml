@@ -14,7 +14,7 @@
     }
 
     form {
-        max-width: 800px;
+        max-width: 1800px;
         margin: 0 auto;
         background-color: #fff;
         padding: 20px;
@@ -62,60 +62,116 @@
         background-color: #0056b3;
     }
 
+    table {
+        width: 45%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+    input[type="checkbox"],
+    input[type="number"] {
+        margin-right: 5px;
+    }
 </style>
 
 <form method="post">
     <div style="display: flex; justify-content: space-between">
-        <div>
-            <h1>Chọn món theo danh mục</h1>
-            @foreach (var c in Model.foodCategories)
-            {
-                @if (c.Foods.Count() != 0)
+        <table>
+            <thead>
+                <tr>
+                    <th>Danh mục</th>
+                    <th>Món ăn</th>
+                    <th>Số lượng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model.foodCategories)
                 {
-                    <h3>@c.Name</h3>
-                }
+                    @if (c.Foods.Count() != 0)
+                    {
+                        <tr>
+                            <td colspan="3"><h3>@c.Name</h3></td>
+                        </tr>
+                    }
 
-                <ul>
                     @foreach (var f in c.Foods)
                     {
                         if (@c.Id == f.CategoryId)
                         {
-                            <li>
-                                <input type="checkbox" id="food-@f.Id" name="foodId[]" value="@f.Id">
-                                <label for="food-@f.Id"> @f.Name</label>
-                                <input type="number" name="number_food[]"  >
-                            </li>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="checkbox" id="food-@f.Id" name="foodId[]" value="@f.Id">
+                                    <label for="food-@f.Id">@f.Name</label>
+                                </td>
+                                <td>
+                                    <input type="number" name="number_food[]">
+                                </td>
+                            </tr>
                         }
                     }
-                </ul>
-            }
-        </div>
-        <div>
-            <h1>Chọn món theo combo</h1>
-            @foreach (var com in Model.combo)
-            {
-                @if (com.FoodCombos.Count() != 0)
-                {
-                    <li>
-                        <input type="checkbox" id="combo-@com.Id" name="comboId[]" value="@com.Id">
-                        <label for="combo-@com.Id">@com.Name</label>
-                        <input type="number" name="number_combo[]"  >
-                    </li>
                 }
+            </tbody>
+        </table>
 
-                <ul>
-                    @foreach (var fb in Model.foodcombo)
+        <table>
+            <thead>
+                <tr>
+                    <th>Combo</th>
+                    <th>Số lượng</th>
+                    <th>Món ăn</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var com in Model.combo)
+                {
+                    @if (com.FoodCombos.Count() != 0)
                     {
-                        if (@com.Id == fb.ComboId)
-                        {
-                            <li>@fb.Food.Name</li>
-                        }
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="combo-@com.Id" name="comboId[]" value="@com.Id">
+                                <label for="combo-@com.Id">@com.Name</label>
+                            </td>
+                            <td>
+                                <input type="number" name="number_combo[]">
+                            </td>
+                            <td>
+                                <ul>
+                                    @foreach (var fb in Model.foodcombo)
+                                    {
+                                        if (@com.Id == fb.ComboId)
+                                        {
+                                            <li>@fb.Food.Name</li>
+                                        }
+                                    }
+                                </ul>
+                            </td>
+                        </tr>
                     }
-                </ul>
-            }
-        </div>
+                }
+            </tbody>
+        </table>
+
     </div>
-    <input type="submit" value="Đặt món">
+    <input style="margin-top:30px;" type="submit" value="Booking">
 </form>
 <script>
     // Get all the checkboxes and corresponding quantity input fields
