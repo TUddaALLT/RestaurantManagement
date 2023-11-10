@@ -195,7 +195,7 @@ input[type="radio"] {
     }
   </script>
 <form method="post" onsubmit="return validateDate()">
-    <h1>Đặt bàn</h1>
+    <h1 class="text-center text-danger">Đặt bàn</h1>
     <table>
     <thead>
         <tr>
@@ -227,11 +227,11 @@ input[type="radio"] {
 </div>
 
     <h4 style="color:red">@Model.message</h4>
-    <input  onclick="loadingss()" type="submit" value="Đặt bàn">
+    <input  onclick="loadingss()" type="submit" value="Đặt bàn" class="bg-danger">
 
 
          <div id="reservation-list" style="display:flex; flex-wrap:wrap">
-        <h3 style="margin:0 auto;padding:20px 0">Bàn và thời gian đã có người đặt trong hôm nay</h3>
+        <h3  class="text-center text-danger" style="margin:0 auto;padding:20px 0">Danh sách bàn và thời gian đã có người đặt</h3>
         @foreach(var tb in Model.tableOrderCustomers){
         <div style="background-color: #d7e8d4;
             margin: 5px;
@@ -244,6 +244,24 @@ input[type="radio"] {
          }
         </div>
 </form>
+<div class="row contact mt-5">
+@*         <div class="col-md-12 textfeedback d-flex justify-content-center text-danger">
+            <h3>CONTACT</h3>
+        </div> *@
+        <div class="col-md-6 contacttext">
+            <p>FPT University Hoa Lac Campus, Thach That, Ha Noi</p>
+            <p>Email: info@restaurant.com</p>
+            <p>Phone: +1-123-456-7890</p>
+            <p>&copy; 2023 Restaurant Management</p>
+        </div>
+        <div class="col-md-6 contactimg">
+            <div>
+                <a href="https://www.facebook.com"><img src="~/css/fb.png" alt="Logo"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/google.png" alt="Logo"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/twitter.png" alt="Logo"></a>
+            </div>
+        </div>
+    </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
 <script>
@@ -262,13 +280,8 @@ input[type="radio"] {
 
     }
 });
-
-     
-
-
- 
-
 </script>
+<link href="~/css/authentication/loginregister.css" rel="stylesheet" />
 
  
   

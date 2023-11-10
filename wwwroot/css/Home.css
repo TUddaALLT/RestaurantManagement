@@ -1,18 +1,19 @@
 ﻿body {
-    background-color: #f9fdb1;
+    background-color:white
 }
-
 .header {
     margin-bottom: 50px;
 }
+
 .imgHeader {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.logo-image{
-    width:100%;
-    height:300px;
+
+.logo-image {
+    width: 100%;
+    height: 400px;
 }
 .ulheader {
     display: flex;
@@ -25,38 +26,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .btndetails {
     height: 30px;
-    width:100px;
+    width: 100px;
     margin-left: 10px;
     border-radius: 10px;
     background-color: #fb2e00;
     color: yellow;
 }
 
-.btndetails:hover {
-    padding: 30px;
-    color: yellow;
-}
-.aboutustext p{
-    font-weight:bold;
-}
-.textbranch{
-    /*background-color:red;*/
-    font-family:'Times New Roman';
+    .btndetails:hover {
+        background-color: yellow;
+        color: #fb2e00;
+    }
+
+.aboutustext p {
+    font-weight: bold;
 }
 
-.imgbranch{
-/*    background-color:green;*/
-    width:auto;
-    height:400px;    
+.textbranch {
+    /*background-color:red;*/
+    font-family: 'Times New Roman';
 }
+
+.imgbranch {
+    /*    background-color:green;*/
+    width: auto;
+    height: 400px;
+}
+
 .imgbranch {
     animation: spin 30s linear infinite;
 }
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -66,41 +71,50 @@
         transform: rotate(360deg);
     }
 }
-.feedback{
-    margin-bottom:130px;
+
+.feedback {
+    margin-bottom: 130px;
 }
+
 .textfeedback {
     /*background-color: red;*/
     font-family: 'Times New Roman';
 }
+
 .fb {
     border-right: 1px solid red;
     padding-right: 10px;
 }
+
     .fb p {
         font-weight: bold;
     }
+
 .imgfb {
-/*    background-color: red;*/
-    display:flex;
-    justify-content:center;   
+    /*    background-color: red;*/
+    display: flex;
+    justify-content: center;
 }
+
 .imgfb1 {
     width: 40%;
     border-radius: 10px;
 }
+
 .contacttext {
     text-align: center;
     border-right: 1px solid red;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 .contactimg {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
-.contactimg img{
-    height:50px;
-    width:50px;
-    margin:30px;
-}
+
+    .contactimg img {
+        height: 50px;
+        width: 50px;
+        margin: 30px;
+    }
