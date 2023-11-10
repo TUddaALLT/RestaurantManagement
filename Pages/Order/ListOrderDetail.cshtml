@@ -55,6 +55,7 @@
                 <th>Number</th>
                 <th>Food/Combo</th>
                 <th>Quantity</th>
+                <th>Price</th>
             </tr>
         </thead>
         <tbody>
@@ -109,6 +110,35 @@
                                 if (customer.Id == foodTable.TableOrderCustomerId)
                                 {
                                     <div>@foodTable.Number</div>
+                                }
+                            }
+                        </td>
+                        <td>
+                            @foreach (var foodTable in customer.FoodTables)
+                            {
+                                if (customer.Id == foodTable.TableOrderCustomerId)
+                                {
+                                    @if (foodTable.FoodId != null)
+                                    {
+                                        @foreach (var food in Model.foods)
+                                        {
+                                            if (food.Id == foodTable.FoodId)
+                                            {
+                                                <div  >@food.Price</div>
+                                            }
+                                        }
+                                    }
+
+                                    @if (foodTable.ComboId != 0)
+                                    {
+                                        @foreach (var combo in Model.combos)
+                                        {
+                                            if (combo.Id == foodTable.ComboId)
+                                            {
+                                                <div  >@combo.Price</div>
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         </td>
