@@ -16,6 +16,7 @@ namespace RestaurantManagement.Models
         public string? Description { get; set; }
         public decimal? Price { get; set; }
         public int? CategoryId { get; set; }
+        public string? Image { get; set; }
 
         public virtual FoodCategory? Category { get; set; }
         public virtual ICollection<FoodCombo> FoodCombos { get; set; }

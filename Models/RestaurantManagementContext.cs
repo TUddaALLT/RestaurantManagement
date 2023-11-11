@@ -90,6 +90,7 @@ namespace RestaurantManagement.Models
                 entity.Property(e => e.Description).HasColumnName("description");
 
                 entity.Property(e => e.Name).HasColumnName("name");
+                entity.Property(e => e.Image).HasColumnName("image");
 
                 entity.Property(e => e.Price)
                     .HasColumnType("money")
