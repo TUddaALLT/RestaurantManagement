@@ -29,7 +29,7 @@ namespace RestaurantManagement.Pages.FoodManager
 
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(IFormFile image)
         {
             if (!ModelState.IsValid || Food == null || _context.Foods == null || _context.FoodCategories == null)
             {
@@ -49,6 +49,19 @@ namespace RestaurantManagement.Pages.FoodManager
 
             // Gán Category cho Food
             Food.Category = existingCategory;
+
+            if (image != null && image.Length > 0)
+            {
+                var fileName = Path.GetFileName(image.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Image", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                Food.Image = $"/Image/{fileName}";
+            }
 
             _context.Foods.Add(Food);
             await _context.SaveChangesAsync();

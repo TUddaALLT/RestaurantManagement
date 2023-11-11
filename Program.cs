@@ -1,3 +1,4 @@
+using Microsoft.Extensions.FileProviders;
 using RestaurantManagement.Models;
 using RestaurantManagement.ResHub;
 
@@ -39,6 +40,12 @@ namespace RestaurantManagement
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new PhysicalFileProvider(
+    Path.Combine(Directory.GetCurrentDirectory(), "Image")),
+                RequestPath = "/Image"
+            });
             // session
             app.UseSession();
             app.UseRouting();

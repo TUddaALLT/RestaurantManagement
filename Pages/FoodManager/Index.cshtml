@@ -18,6 +18,7 @@
         <thead class="theadtable">
             <tr>
                 <th class="title">Category</th>
+                <th class="title">Image</th>
                 <th class="title">Name</th>
                 <th class="title">Description</th>
                 <th class="title">Price</th>
@@ -30,6 +31,7 @@
                 var foodInCategory = Model.Food.Where(f => f.Category.Name == categoryName).ToList();
                 <tr>
                     <td rowspan="@foodInCategory.Count">@categoryName</td>
+                    <td><img src="@foodInCategory[0].Image" /></td>
                     <td>@foodInCategory[0].Name</td>
                     <td>@foodInCategory[0].Description</td>
                     <td>@foodInCategory[0].Price</td>
@@ -42,6 +44,7 @@
                 @for (int i = 1; i < foodInCategory.Count; i++)
                 {
                     <tr>
+                        <td><img src="@foodInCategory[i].Image"/></td>
                         <td>@foodInCategory[i].Name</td>
                         <td>@foodInCategory[i].Description</td>
                         <td>@foodInCategory[i].Price</td>

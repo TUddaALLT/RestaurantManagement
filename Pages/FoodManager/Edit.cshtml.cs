@@ -35,13 +35,14 @@ namespace RestaurantManagement.Pages.FoodManager
                 return NotFound();
             }
             Food = food;
+            ViewData["Img"] = Food.Image;
             ViewData["Name"] = new SelectList(_context.FoodCategories.Select(fc => fc.Name).Distinct());
             return Page();
         }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see https://aka.ms/RazorPagesCRUD.
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(IFormFile image)
         {
             if (!ModelState.IsValid)
             {
@@ -62,6 +63,18 @@ namespace RestaurantManagement.Pages.FoodManager
             // Gán Category mới cho Food
             Food.Category = existingCategory;
 
+            if (image != null && image.Length > 0)
+            {
+                var fileName = Path.GetFileName(image.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Image", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+
+                Food.Image = $"/Image/{fileName}";
+            }
             // Cập nhật Food
             _context.Attach(Food).State = EntityState.Modified;
 
