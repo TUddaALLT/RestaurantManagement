@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RestaurantManagement.styles.css" asp-append-version="true" />
+
 </head>
 <body>
     <header class="">
@@ -21,27 +22,32 @@
                     <ul class="navbar-nav flex-grow-1 ulheader">
                         <li class="nav-item">
                             <div class="btnheader">
-                                <a class="nav-link btndetails" asp-area="" asp-page="/Index">Back Home</a>
+                                <a class="nav-link btndetails" asp-area="" asp-page="/Index"><img class="imghome" src="https://img.icons8.com/?size=256&id=12229&format=png" />Back Home</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="btnheader">
-                                <a class="nav-link btndetails" asp-area="" asp-page="/order/table">Booking</a>
+                                <a class="nav-link btndetails" asp-area="" asp-page="/order/table"><img src="https://cdn-icons-png.flaticon.com/512/2534/2534679.png" />Booking</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="btnheader">
-                                <a class="nav-link btndetails" asp-area="" asp-page="/order/listorderdetail">My Booking</a>
+                                <a class="nav-link btndetails" asp-area="" asp-page="/order/listorderdetail"><img src="https://img.icons8.com/?size=256&id=jhg1LegVnvVh&format=png" />My Booking</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="btnheader">
-                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/login">Login</a>
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/login"><img src="https://cdn-icons-png.flaticon.com/512/8109/8109306.png" />Login</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="btnheader">
-                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/register">Register</a>
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/register"><img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" />Register</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btnheader">
+                                <a class="nav-link btndetails" asp-area="" asp-page="/authentication/logout"><img src="https://cdn-icons-png.flaticon.com/512/6568/6568636.png" />Logout</a>
                             </div>
                         </li>
                     </ul>
@@ -72,4 +78,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-<link href="~/css/Layout.css" rel="stylesheet" />
+<link href="~/css/_Layout.css" rel="stylesheet" />

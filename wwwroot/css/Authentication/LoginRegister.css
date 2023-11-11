@@ -1,7 +1,4 @@
-﻿body {
-}
-
-.menutext {
+﻿.menutext {
     width: 100%;
     font-family: Open Sans;
     color: #fb2e00;
@@ -14,9 +11,10 @@
     margin: 15vh auto;
     padding: 60px;
     background-color: white;
-    border: 1px solid #CCC;
+    border: 1px solid red;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff6da;
 }
 
     .login-form input {
@@ -43,6 +41,7 @@
             color: #fb2e00;
             border: 2px solid #fb2e00;
         }
+
 .contacttext {
     text-align: center;
     border-right: 1px solid red;
@@ -55,8 +54,8 @@
     align-items: center;
 }
 
-.contactimg img {
-    height: 50px;
-    width: 50px;
-    margin: 30px;
-}
+    .contactimg img {
+        height: 50px;
+        width: 50px;
+        margin: 30px;
+    }
