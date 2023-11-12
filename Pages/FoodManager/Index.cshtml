@@ -31,7 +31,7 @@
                 var foodInCategory = Model.Food.Where(f => f.Category.Name == categoryName).ToList();
                 <tr>
                     <td rowspan="@foodInCategory.Count">@categoryName</td>
-                    <td><img src="@foodInCategory[0].Image" /></td>
+                    <td><img style="height:200px" src="@foodInCategory[0].Image" /></td>
                     <td>@foodInCategory[0].Name</td>
                     <td>@foodInCategory[0].Description</td>
                     <td>@foodInCategory[0].Price</td>
@@ -44,7 +44,7 @@
                 @for (int i = 1; i < foodInCategory.Count; i++)
                 {
                     <tr>
-                        <td><img src="@foodInCategory[i].Image"/></td>
+                        <td><img style="height:200px" src="@foodInCategory[i].Image" /></td>
                         <td>@foodInCategory[i].Name</td>
                         <td>@foodInCategory[i].Description</td>
                         <td>@foodInCategory[i].Price</td>
