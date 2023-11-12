@@ -36,7 +36,7 @@ namespace RestaurantManagement.Pages.Combo
 
             //adding food combo
             var foodCombosId = Request.Form["FoodCombos"];
-            decimal? price = 0;
+            int? price = 0;
             foreach(var foodComboId in foodCombosId)
             {
                 FoodCombo foodCombo = new FoodCombo
@@ -49,7 +49,7 @@ namespace RestaurantManagement.Pages.Combo
             }
 
             //modify price of added combo
-            latestCombo.Price = price * 0.9m;
+            latestCombo.Price = price ;
             _context.Attach(latestCombo).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 

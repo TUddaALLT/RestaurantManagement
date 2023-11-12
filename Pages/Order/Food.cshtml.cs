@@ -47,7 +47,7 @@ namespace RestaurantManagement.Pages.Order
                         FoodId = int.Parse(foodId[i]),
                         TableOrderCustomerId = int.Parse(HttpContext.Session.GetString("TableOrderCustomerId")) ,// get from session
                         Number = number_food[i],
-                    });
+                    }); 
                     _context.SaveChanges();
 
                 }
@@ -71,7 +71,7 @@ namespace RestaurantManagement.Pages.Order
                 
             }
          
-            return RedirectToPage("/order/success");
+            return RedirectToPage("/order/listorderdetail");
         }
     }
 }

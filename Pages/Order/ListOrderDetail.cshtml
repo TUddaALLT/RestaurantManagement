@@ -3,6 +3,9 @@
 @{
     Layout = "_MyLayout";
 }
+@{
+    int grandTotal = 0; // Initialize grand total outside the foreach loop
+}
 <style>
     .order-table {
         width: 100%;
@@ -113,36 +116,50 @@
                                 }
                             }
                         </td>
+                       
                         <td>
                             @foreach (var foodTable in customer.FoodTables)
                             {
+                                
                                 if (customer.Id == foodTable.TableOrderCustomerId)
                                 {
+                                    int xx = 0;
                                     @if (foodTable.FoodId != null)
                                     {
+                                      
                                         @foreach (var food in Model.foods)
                                         {
                                             if (food.Id == foodTable.FoodId)
                                             {
-                                                <div  >@food.Price</div>
-                                             
-                    }
+                                                <div>@(food.Price)</div>
+                                                xx += (foodTable.Number ?? 0) * (food.Price ?? 0);
+                                            }
+                                            
                                         }
                                     }
 
                                     @if (foodTable.ComboId != 0)
                                     {
+                                       
                                         @foreach (var combo in Model.combos)
                                         {
                                             if (combo.Id == foodTable.ComboId)
                                             {
                                                 <div  >@combo.Price</div>
+                                                xx += (foodTable.Number ?? 0) * (combo.Price ?? 0);
                                             }
                                         }
                                     }
+                                    grandTotal += xx;
                                 }
                             }
+                        <h3>Total: @grandTotal</h3>
+                            @{
+                                grandTotal = 0;
+                            }
+                         
                         </td>
+                      
                         <td>
                             <form method="post">
                                 <input value="@customer.Id" name="id" hidden>
