@@ -42,16 +42,32 @@
             border: 2px solid #fb2e00;
         }
 
+.contactinfo {
+    /*background-color: red;*/
+}
+
+.headercontact {
+    /*background-color:yellow;*/
+    display: flex;
+    align-items: center;
+}
+
+    .headercontact a {
+        border-bottom: 1px solid red; /* Dấu sẽ là đường line */
+        width: 500px; /* Điều chỉnh chiều dài theo mong muốn */
+    }
+
 .contacttext {
     text-align: center;
-    border-right: 1px solid red;
     font-weight: bold;
+    /*background-color: pink;*/
 }
 
 .contactimg {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*background-color: aqua;*/
 }
 
     .contactimg img {

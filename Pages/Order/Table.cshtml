@@ -161,7 +161,10 @@ label {
 input[type="radio"] {
     margin-right: 5px;
 }
-
+reservationlist{
+    display:flex; 
+    flex-wrap:wrap;
+}
 </style>
 
   <script>
@@ -230,39 +233,42 @@ input[type="radio"] {
     <input  onclick="loadingss()" type="submit" value="Đặt bàn" class="bg-danger">
 
 
-         <div id="reservation-list" style="display:flex; flex-wrap:wrap">
-        <h3  class="text-center text-danger" style="margin:0 auto;padding:20px 0">Danh sách bàn và thời gian đã có người đặt</h3>
-        @foreach(var tb in Model.tableOrderCustomers){
-        <div style="background-color: #d7e8d4;
-            margin: 5px;
-            padding: 18px;
-            border-radius: 14px;  " >
-            <p>@tb.TableOrder.Description, Tầng: @tb.TableOrder.Floor, Số bàn: @tb.TableOrder.Number</p>
-        <p>Start: @tb.Start</p
-        <p>End: @tb.End</p>
-        </div>
-         }
+        <h3 class="text-danger text-center mt-5">Danh sách bàn và thời gian đã có người đặt</h3>
+         <div id="reservation-list" class="row d-flex justify-content-center align-items-center">          
+                @foreach(var tb in Model.tableOrderCustomers){
+                    <div style="background-color: #fff6da;
+                        margin: 5px;
+                        padding: 18px;
+                        border-radius: 14px;" class="col-md-5">
+                        <p>@tb.TableOrder.Description, Tầng: @tb.TableOrder.Floor, Số bàn: @tb.TableOrder.Number</p>
+                    <p>Start: @tb.Start</p
+                    <p>End: @tb.End</p>
+                    </div>
+                 }
         </div>
 </form>
 <div class="row contact mt-5">
-@*         <div class="col-md-12 textfeedback d-flex justify-content-center text-danger">
-            <h3>CONTACT</h3>
-        </div> *@
-        <div class="col-md-6 contacttext">
-            <p>FPT University Hoa Lac Campus, Thach That, Ha Noi</p>
-            <p>Email: info@restaurant.com</p>
-            <p>Phone: +1-123-456-7890</p>
-            <p>&copy; 2023 Restaurant Management</p>
+        <div class="headercontact col-md-12 textfeedback d-flex justify-content-center text-danger">
+            <a></a>
+            <h2 class="me-5 ms-5">CONTACT</h2>
+            <a></a>
         </div>
-        <div class="col-md-6 contactimg">
-            <div>
-                <a href="https://www.facebook.com"><img src="~/css/fb.png" alt="Logo"></a>
-                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/google.png" alt="Logo"></a>
-                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/twitter.png" alt="Logo"></a>
+        <div class="row contactinfo">
+            <div class="col-md-6 contacttext">
+                <p>FPT University Hoa Lac Campus, Thach That, Ha Noi</p>
+                <p>Email: info@restaurant.com</p>
+                <p>Phone: +1-123-456-7890</p>
+                <p>&copy; 2023 Restaurant Management</p>
+            </div>
+            <div class="col-md-6 contactimg">
+                <div>
+                    <a href="https://www.facebook.com"><img src="~/css/fb.png" alt="Logo"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/google.png" alt="Logo"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/twitter.png" alt="Logo"></a>
+                </div>
             </div>
         </div>
     </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
 <script>
 

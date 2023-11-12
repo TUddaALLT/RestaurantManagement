@@ -11,7 +11,6 @@
         width: 100%;
         border-collapse: collapse;
         margin-top: 20px;
-
     }
 
     th, td {
@@ -37,7 +36,7 @@
         margin: 0;
     }
 
-        .food-name::before {
+/*         .food-name::before {
             content: "Món: ";
             font-weight: bold;
         }
@@ -45,7 +44,7 @@
         .combo-name::before {
             content: "Combo Món: ";
             font-weight: bold;
-        }
+        } */
 </style>
 <div style="background-color:whitesmoke">
     <table class="order-table">
@@ -55,10 +54,9 @@
                 <th>End</th>
                 <th>Floor</th>
                 <th>Number</th>
-                <th>Food/Combo</th>
+                <th>Food/Combo Name</th>
                 <th>Quantity</th>
                 <th>Price</th>
-                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -116,56 +114,34 @@
                                 }
                             }
                         </td>
-                       
                         <td>
                             @foreach (var foodTable in customer.FoodTables)
                             {
-                                
                                 if (customer.Id == foodTable.TableOrderCustomerId)
                                 {
-                                    int xx = 0;
                                     @if (foodTable.FoodId != null)
                                     {
-                                      
                                         @foreach (var food in Model.foods)
                                         {
                                             if (food.Id == foodTable.FoodId)
                                             {
-                                                <div>@(food.Price)</div>
-                                                xx += (foodTable.Number ?? 0) * (food.Price ?? 0);
+                                                <div>@food.Price</div>
                                             }
-                                            
                                         }
                                     }
 
                                     @if (foodTable.ComboId != 0)
                                     {
-                                       
                                         @foreach (var combo in Model.combos)
                                         {
                                             if (combo.Id == foodTable.ComboId)
                                             {
-                                                <div  >@combo.Price</div>
-                                                xx += (foodTable.Number ?? 0) * (combo.Price ?? 0);
+                                                <div for="combo-@combo.Id">@string.Format("{0:N0}", combo.Price) VNĐ</div>
                                             }
                                         }
                                     }
-                                    grandTotal += xx;
                                 }
                             }
-                        <h3>Total: @grandTotal</h3>
-                            @{
-                                grandTotal = 0;
-                            }
-                         
-                        </td>
-                      
-                        <td>
-                            <form method="post">
-                                <input value="@customer.Id" name="id" hidden>
-                                <input type="submit" value="Hủy">
-                            </form>
-
                         </td>
                     </tr>
                 }
@@ -173,21 +149,25 @@
         </tbody>
     </table>
 </div>
-<div class="row contact mt-5">
-    @*         <div class="col-md-12 textfeedback d-flex justify-content-center text-danger">
-    <h3>CONTACT</h3>
-    </div> *@
-    <div class="col-md-6 contacttext">
-        <p>FPT University Hoa Lac Campus, Thach That, Ha Noi</p>
-        <p>Email: info@restaurant.com</p>
-        <p>Phone: +1-123-456-7890</p>
-        <p>&copy; 2023 Restaurant Management</p>
+<div class="row contact" style="margin-top:30%">
+    <div class="headercontact col-md-12 textfeedback d-flex justify-content-center text-danger">
+        <a></a>
+        <h2 class="me-5 ms-5">CONTACT</h2>
+        <a></a>
     </div>
-    <div class="col-md-6 contactimg">
-        <div>
-            <a href="https://www.facebook.com"><img src="~/css/fb.png" alt="Logo"></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/google.png" alt="Logo"></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/twitter.png" alt="Logo"></a>
+    <div class="row contactinfo">
+        <div class="col-md-6 contacttext">
+            <p>FPT University Hoa Lac Campus, Thach That, Ha Noi</p>
+            <p>Email: info@restaurant.com</p>
+            <p>Phone: +1-123-456-7890</p>
+            <p>&copy; 2023 Restaurant Management</p>
+        </div>
+        <div class="col-md-6 contactimg">
+            <div>
+                <a href="https://www.facebook.com"><img src="~/css/fb.png" alt="Logo"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/google.png" alt="Logo"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="~/css/twitter.png" alt="Logo"></a>
+            </div>
         </div>
     </div>
 </div>
