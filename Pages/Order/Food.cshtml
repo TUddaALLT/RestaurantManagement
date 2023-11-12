@@ -94,11 +94,12 @@
 
 <form method="post">
     <div style="display: flex; justify-content: space-between">
-        <table>
+        <table style="width:60%">
             <thead>
                 <tr>
                     <th>Danh mục</th>
                     <th>Món ăn</th>
+                    <th>Ảnh món ăn</th>
                     <th>Số lượng</th>
                 </tr>
             </thead>
@@ -122,6 +123,7 @@
                                     <input type="checkbox" id="food-@f.Id" name="foodId[]" value="@f.Id">
                                     <label for="food-@f.Id">@f.Name</label>
                                 </td>
+                                <td><img style="height:200px" src="@f.Image" /></td>
                                 <td>
                                     <input type="number" name="number_food[]">
                                 </td>
@@ -132,7 +134,7 @@
             </tbody>
         </table>
 
-        <table>
+        <table style="width:35%">
             <thead>
                 <tr>
                     <th>Combo</th>
