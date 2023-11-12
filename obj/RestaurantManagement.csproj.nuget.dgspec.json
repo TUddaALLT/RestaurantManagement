@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {}
+    "C:\\Users\\84352\\Desktop\\final\\RestaurantManagement\\RestaurantManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {
+    "C:\\Users\\84352\\Desktop\\final\\RestaurantManagement\\RestaurantManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+        "projectUniqueName": "C:\\Users\\84352\\Desktop\\final\\RestaurantManagement\\RestaurantManagement.csproj",
         "projectName": "RestaurantManagement",
-        "projectPath": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+        "projectPath": "C:\\Users\\84352\\Desktop\\final\\RestaurantManagement\\RestaurantManagement.csproj",
         "packagesPath": "C:\\Users\\84352\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\84352\\source\\repos\\RestaurantManagement\\RestaurantManagement\\obj\\",
+        "outputPath": "C:\\Users\\84352\\Desktop\\final\\RestaurantManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\84352\\AppData\\Roaming\\NuGet\\NuGet.Config",
