@@ -15,9 +15,10 @@ namespace RestaurantManagement
             builder.Services.AddScoped<RestaurantManagementContext>();
             builder.Services.AddDbContext<RestaurantManagementContext>();
             builder.Services.AddSignalR();
+			builder.Services.AddHttpContextAccessor();
 
 
-            builder.Services.AddDistributedMemoryCache();
+			builder.Services.AddDistributedMemoryCache();
 
             builder.Services.AddSession(options =>
             {
@@ -51,7 +52,7 @@ namespace RestaurantManagement
             app.UseRouting();
 
             app.UseAuthorization();
-
+            
             app.MapRazorPages();
             app.MapHub<ResHub.ResHub>("/resHub");
             app.Run();
