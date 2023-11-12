@@ -9,7 +9,7 @@ namespace RestaurantManagement.Models
         public int? FoodId { get; set; }
         public int? TableOrderCustomerId { get; set; }
         public int ComboId { get; set; }
-        public int Number {  get; set; }
+        public int? Number {  get; set; }
         public virtual Food? Food { get; set; }
         public virtual TableOrderCustomer? TableOrderCustomer { get; set; }
     }

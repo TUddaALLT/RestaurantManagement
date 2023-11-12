@@ -55,6 +55,7 @@
                 <th>Food/Combo</th>
                 <th>Quantity</th>
                 <th>Price</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -124,7 +125,8 @@
                                             if (food.Id == foodTable.FoodId)
                                             {
                                                 <div  >@food.Price</div>
-                                            }
+                                             
+                    }
                                         }
                                     }
 
@@ -140,6 +142,13 @@
                                     }
                                 }
                             }
+                        </td>
+                        <td>
+                            <form method="post">
+                                <input value="@customer.Id" name="id" hidden>
+                                <input type="submit" value="Hủy">
+                            </form>
+
                         </td>
                     </tr>
                 }
